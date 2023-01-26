@@ -971,14 +971,15 @@ MonoBehaviour:
   m_GameObject: {fileID: 1682631024}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4dd1925e2dc7b0d48866ea1b0e67631a, type: 3}
+  m_Script: {fileID: 11500000, guid: 985b27fb8854ee8418268481443384a7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  AllSprites: []
+  AllSprites:
+  - {fileID: 21300000, guid: a9d9b7388d099e9438e4b9f741099ee5, type: 3}
   AllDialogPaths:
   - text
-  - sa
-  AllFullScreenImages: []
+  AllFullScreenImages:
+  - {fileID: 21300000, guid: 04762b6177fba9546bc826d4f8301d1c, type: 3}
   dialogs: []
 --- !u!1 &1866290318
 GameObject:
