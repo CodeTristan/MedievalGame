@@ -4,7 +4,7 @@ using Unity.VisualScripting;
 using UnityEditor;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
+//my code is betiful
 public class Sounds : MonoBehaviour
 {
     public SoundClass[] sounds;
