@@ -194,7 +194,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   sounds:
-  - clip: {fileID: 8300000, guid: da92f7a76f9e60541a3a9fd355380cf8, type: 3}
+  - clip:
+    - {fileID: 8300000, guid: da92f7a76f9e60541a3a9fd355380cf8, type: 3}
+    - {fileID: 8300000, guid: 66739ed6d9a2af4458557d8985b1bd55, type: 3}
+    - {fileID: 8300000, guid: 869867878e7717046abfa977162da86c, type: 3}
     name: Click
     volume: 1
     pitch: 1
@@ -205,10 +208,6 @@ MonoBehaviour:
   audiosources:
   - {fileID: 0}
   - {fileID: 0}
-  clips:
-  - {fileID: 8300000, guid: da92f7a76f9e60541a3a9fd355380cf8, type: 3}
-  - {fileID: 8300000, guid: 66739ed6d9a2af4458557d8985b1bd55, type: 3}
-  - {fileID: 8300000, guid: 869867878e7717046abfa977162da86c, type: 3}
   musicmultiplier: 0
 --- !u!114 &209818
 MonoBehaviour:

@@ -12,7 +12,6 @@ public class Sounds : MonoBehaviour
     public Options o;
     public Pause p;
     public AudioSource[] audiosources; 
-    public AudioClip[] clips;
     public float musicmultiplier;
 
     private void Awake()
@@ -23,7 +22,6 @@ public class Sounds : MonoBehaviour
             sounds[i].source.volume = sounds[i].volume;
             sounds[i].source.pitch = sounds[i].pitch;
             sounds[i].source.loop = sounds[i].loop;
-            sounds[i].source.clip = sounds[i].clip;
         }
     }
     public void PlaySound(string soundname)
@@ -38,6 +36,7 @@ public class Sounds : MonoBehaviour
         }
         if (s!=null)
         {
+            s.source.clip = s.clip[Random.Range(0,s.clip.Length)];
             s.source.Play();
         }
         else
