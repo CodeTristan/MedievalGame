@@ -4,22 +4,129 @@ using UnityEngine;
 using System.IO;
 using System.Text;
 using System;
+using TMPro;
+using UnityEngine.UI;
 
 public class DialogManager : MonoBehaviour
 {
+    [SerializeField] private Sounds soundManager;
+    [SerializeField] private TextMeshProUGUI nameText;
+    [SerializeField] private TextMeshProUGUI dialogText;
+    [SerializeField] private Image charImage;
+    [SerializeField] private Image fullScreenImage;
+    [SerializeField] private GameObject dialogScreen;
+    [SerializeField] private float typeDelay;
+
     public Sprite[] AllSprites;
     public string[] AllDialogPaths;
     public Sprite[] AllFullScreenImages;
     public List<Dialog> dialogs;
 
     private StreamReader reader;
+    private Queue<string> sentences;
+    private int dialogIndex;
+    private string sentence;
     private void Start()
     {
         dialogs = new List<Dialog>();
-        StartDialog(FindPath("text"));
+        sentences = new Queue<string>();
+        GetDialogs(FindPath("text"));
     }
 
-    public void StartDialog(string path)
+    private void Update()
+    {
+        if ((Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0)) && dialogScreen.activeSelf)
+        {
+            if (dialogText.text != sentence)
+            {
+                dialogText.text = sentence;
+            }
+            else
+            {
+                DisplayNextSentence();
+            }
+        }
+    }
+    public IEnumerator TypeLetter(string sentence)
+    {
+        dialogText.text = "";
+        foreach(char letter in sentence.ToCharArray())
+        {
+            dialogText.text += letter;
+            yield return new WaitForSeconds(typeDelay);
+        }
+    }
+
+    public void DisplayNextSentence()
+    {
+        if (dialogIndex == dialogs.Count)
+        {
+            EndDialog();
+            return;
+        }
+        if(sentences.Count == 0)
+        {
+            dialogIndex++;
+            StartDialog();
+        }
+        else
+        {
+            sentence = sentences.Dequeue();
+            StopAllCoroutines();
+            StartCoroutine(TypeLetter(sentence));
+        }
+    }
+
+    public void StartDialog()
+    {
+        if(dialogIndex == dialogs.Count)
+        {
+            EndDialog();
+            return;
+        }
+        dialogScreen.SetActive(true);
+        Dialog currentDialog = dialogs[dialogIndex];
+        foreach (string sentence in currentDialog.sentences)
+        {
+            sentences.Enqueue(sentence);
+        }
+        
+        //Checking if there are character sprite
+        if(currentDialog.dialogSprite == null)
+        {
+            charImage.gameObject.SetActive(false);
+        }
+        else
+        {
+            charImage.gameObject.SetActive(true);
+            charImage.sprite = currentDialog.dialogSprite;
+        }
+
+        //Checking if there are fullscreen images
+        if (currentDialog.fullScreenImageSprite == null)
+        {
+            fullScreenImage.gameObject.SetActive(false);
+        }
+        else
+        {
+            fullScreenImage.gameObject.SetActive(true);
+            fullScreenImage.sprite = currentDialog.fullScreenImageSprite;
+        }
+
+        //Checking if there are sound effects
+        if (currentDialog.soundName != null)
+        {
+            soundManager.PlaySound(currentDialog.soundName);
+        }
+
+        DisplayNextSentence();
+    }
+
+    public void EndDialog()
+    {
+        dialogScreen.SetActive(false);
+    }
+    public void GetDialogs(string path)
     {
 
         //Tries to open file in given path.
@@ -34,6 +141,9 @@ public class DialogManager : MonoBehaviour
         }
 
         Dialog tempDialog = new Dialog();
+        dialogs.Clear();
+        dialogIndex = 0;
+        sentences.Clear();
 
         while (reader.EndOfStream == false)
         {
@@ -69,14 +179,21 @@ public class DialogManager : MonoBehaviour
                 {
                     tempDialog.dialogSprite = null;
                 }
-                
+
 
                 //Sound Effect
-                //Add sound effect thing when sound manager is ready
-                //Add sound material to dialog
+                if (reader.Peek() == '*')
+                {
+                    reader.Read(); // Skips '#' char
+                    tempDialog.soundName = reader.ReadLine();  //Reads sound name.
+                }
+                else
+                {
+                    tempDialog.soundName = null;
+                }
 
                 //Full screen Image to play
-                if(reader.Peek() == '$')
+                if (reader.Peek() == '$')
                 {
                     reader.Read(); // Skips '$' char
                     tempDialog.fullScreenImageSprite = FindFullScreenImageSprite(reader.ReadLine());
@@ -120,7 +237,7 @@ public class DialogManager : MonoBehaviour
         reader.Close();
 
         //TO-DO: Connect UI with code.
-
+        StartDialog();
     }
 
     // Finds and returns sprite in AllSprites array according to given string spriteName
