@@ -39,7 +39,7 @@ public class WaveManager : MonoBehaviour
                 currentWave.darknessFakeCount--;
                 lightAnimator.SetTrigger("LightFake");
                 //lightAnimator.ResetTrigger("LightFake");
-                currentDarknessTimer = currentWave.darkTimeTimer;
+                currentDarknessTimer = currentWave.darkTimeTimer + 5;
             }
             if(lightOn == true)  //Means: light is on, turn it off
             {
