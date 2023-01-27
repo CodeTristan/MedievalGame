@@ -17,7 +17,7 @@ public class Pause : MonoBehaviour
                 Time.timeScale = 0;
                 pausescreen.SetActive(true);
                 musicmultiplier = 0.2f;
-                options.s.musicsource.volume = JsonUtility.FromJson<OptionsSave>(options.JSON).music * musicmultiplier;
+                options.s.audiosources[0].volume = JsonUtility.FromJson<OptionsSave>(options.JSON).music * musicmultiplier;
             }
             else
             {
@@ -29,7 +29,7 @@ public class Pause : MonoBehaviour
     public void Continue()
     {
         musicmultiplier = 1;
-        options.s.musicsource.volume = JsonUtility.FromJson<OptionsSave>(options.JSON).music * musicmultiplier;
+        options.s.audiosources[0].volume = JsonUtility.FromJson<OptionsSave>(options.JSON).music * musicmultiplier;
         Time.timeScale = 1;
         pausescreen.SetActive(false);
     }

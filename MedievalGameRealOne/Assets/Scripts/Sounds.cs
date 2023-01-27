@@ -7,51 +7,50 @@ using UnityEngine.SceneManagement;
 
 public class Sounds : MonoBehaviour
 {
+    public SoundClass[] sounds;
+
     public Options o;
     public Pause p;
-    public AudioSource clickaudio;
-    public AudioSource musicsource;
+    public AudioSource[] audiosources; 
     public AudioClip[] clips;
-    public AudioClip[] musicclips;
-    AudioClip music;
-    AudioClip prevmusic;
     public float musicmultiplier;
 
-    private void Update()
+    private void Awake()
     {
-        if (musicsource.isPlaying==false&& p != null)
+        for (int i = 0; i < sounds.Length; i++)
         {
-            Sound("music");
+            sounds[i].source = gameObject.AddComponent<AudioSource>();
+            sounds[i].source.volume = sounds[i].volume;
+            sounds[i].source.pitch = sounds[i].pitch;
+            sounds[i].source.loop = sounds[i].loop;
+            sounds[i].source.clip = sounds[i].clip;
         }
     }
-
-    public void Sound(string voicetype)
+    public void PlaySound(string soundname)
     {
-        if (voicetype=="click")
+        SoundClass s = null;
+        for (int i = 0; i < sounds.Length; i++)
         {
-            clickaudio.pitch = Random.Range(1f, 1.3f);
-            clickaudio.PlayOneShot(clips[Random.Range(0, 3)]);
-        }
-        else if (voicetype=="music")
-        {
-            music = musicclips[Random.Range(0, 2)];
-            if (music!=prevmusic)
+            if (sounds[i].name == soundname)
             {
-                musicsource.PlayOneShot(music);
-                prevmusic = music;
+                s = sounds[i];
             }
         }
-    }
-    public void SetVolume()
-    {
-        clickaudio.volume= JsonUtility.FromJson<OptionsSave>(o.JSON).volume;
-        if (p!=null)
+        if (s!=null)
         {
-            musicsource.volume = JsonUtility.FromJson<OptionsSave>(o.JSON).music * p.musicmultiplier;
+            s.source.Play();
         }
         else
         {
-            musicsource.volume = JsonUtility.FromJson<OptionsSave>(o.JSON).music;
+            Debug.LogError("Sound Name Not Valid");
+        }
+    }
+
+    public void SetVolume()
+    {
+        for (int i = 0; i < sounds.Length; i++)
+        {
+            sounds[i].source.volume = sounds[i].volume * JsonUtility.FromJson<OptionsSave>(o.JSON).volume;
         }
     }
 
