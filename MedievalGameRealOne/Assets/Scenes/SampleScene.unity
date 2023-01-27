@@ -909,46 +909,51 @@ MonoBehaviour:
   - isDefensive: 0
     damage: 0
     circles:
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+  currentWave:
+    isDefensive: 0
+    damage: 0
+    circles: []
+  CanSpawnWave: 1
 --- !u!1 &1206338104
 GameObject:
   m_ObjectHideFlags: 0
@@ -1214,7 +1219,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734995781}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 3.28, y: -3.68, z: -71.88895}
+  m_LocalPosition: {x: 4.86, y: -3.56, z: -71.88895}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1233,9 +1238,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8629fbc43393e9645aad9b4bb4e82f4d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  scoreD: 0
-  scoreB: 0
-  scoreS: 0
+  waveManager: {fileID: 1049913882}
+  scoreMultiplyer: 0
+  isInteracting: 0
 --- !u!50 &1734995785
 Rigidbody2D:
   serializedVersion: 4
@@ -1541,11 +1546,11 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 1361660768090295474, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -6.27
+      value: -1.79
       objectReference: {fileID: 0}
     - target: {fileID: 1361660768090295474, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -1.45
+      value: 0.59
       objectReference: {fileID: 0}
     - target: {fileID: 1361660768090295474, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
       propertyPath: m_LocalPosition.z

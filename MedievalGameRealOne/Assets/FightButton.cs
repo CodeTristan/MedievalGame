@@ -4,39 +4,61 @@ using UnityEngine;
 
 public class FightButton : MonoBehaviour
 {
+    [SerializeField] private WaveManager waveManager;
+    [SerializeField] private float scoreMultiplyer;
+    [SerializeField] private bool isInteracting;
 
-    [SerializeField] private bool scoreD;
-    [SerializeField] private bool scoreB;
-    [SerializeField] private bool scoreS;
+    private GameObject currentCircle;
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Space))
+        {
+            if(isInteracting)
+            {
+                Debug.Log("Killed");
+                waveManager.currentWave.damage += 5 * scoreMultiplyer;
+                //Add animations
+
+                Destroy(currentCircle.gameObject);
+                isInteracting = false;
+            }
+        }
+    }
     private void OnTriggerEnter2D(Collider2D collision)
     {
         if(collision.tag == "WaveButtonD")
         {
-            scoreD = true;
+            scoreMultiplyer = 0.5f;
+            isInteracting = true;
+            currentCircle = collision.gameObject;
         }
         if (collision.tag == "WaveButtonB")
         {
-            scoreB = true;
+            scoreMultiplyer = 1f;
+            isInteracting = true;
         }
         if (collision.tag == "WaveButtonS")
         {
-            scoreS = true;
+            scoreMultiplyer = 2f;
+            isInteracting = true;
+            //currentCircle = collision.GetComponentInParent<GameObject>();
         }
     }
+
     private void OnTriggerExit2D(Collider2D collision)
     {
         if (collision.tag == "WaveButtonD")
         {
-            scoreD = false;
+            isInteracting = false;
         }
         if (collision.tag == "WaveButtonB")
         {
-            scoreB = false;
+            scoreMultiplyer = 1f;
         }
         if (collision.tag == "WaveButtonS")
         {
-            scoreS = false;
+            scoreMultiplyer = 0.5f;
         }
     }
 }

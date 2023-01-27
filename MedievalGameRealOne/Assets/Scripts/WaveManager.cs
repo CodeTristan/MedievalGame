@@ -6,10 +6,14 @@ public class WaveManager : MonoBehaviour
 {
     public Transform spawnPoint;
     public Wave[] waves;
+    public Wave currentWave;
+    public bool CanSpawnWave;
 
     private void Start()
     {
-        StartCoroutine(SpawnWave(waves[0]));
+        currentWave = waves[0];
+        if(CanSpawnWave)
+            StartCoroutine(SpawnWave(currentWave));
     }
     public IEnumerator SpawnWave(Wave wave)
     {
