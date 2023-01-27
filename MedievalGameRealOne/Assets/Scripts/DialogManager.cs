@@ -30,7 +30,7 @@ public class DialogManager : MonoBehaviour
     {
         dialogs = new List<Dialog>();
         sentences = new Queue<string>();
-        GetDialogs(FindPath("text"));
+        //GetDialogs(FindPath("text"));
     }
 
     private void Update()

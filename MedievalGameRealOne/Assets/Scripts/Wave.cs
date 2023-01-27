@@ -7,9 +7,11 @@ public class Wave
 {
     public bool isDefensive;
     public float damage;
+    public float darkTimeTimer;
+    public float darknessTime;
+    public int darknessFakeCount;
+    public string musicName;
     public Circle[] circles;
-
-    //Add music track in here
 
 }
 
