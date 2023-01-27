@@ -7,6 +7,7 @@ TagManager:
   - WaveButtonD
   - WaveButtonB
   - WaveButtonS
+  - WaveButtonF
   layers:
   - Default
   - TransparentFX

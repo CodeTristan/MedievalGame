@@ -27,9 +27,15 @@ public class FightButton : MonoBehaviour
     }
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        if(collision.tag == "WaveButtonD")
+        if (collision.tag == "WaveButtonF")
         {
-            scoreMultiplyer = 0.5f;
+            scoreMultiplyer = -2f;
+            isInteracting = true;
+            currentCircle = collision.gameObject;
+        }
+        if (collision.tag == "WaveButtonD")
+        {
+            scoreMultiplyer = -0.5f;
             isInteracting = true;
             currentCircle = collision.gameObject;
         }
@@ -48,6 +54,10 @@ public class FightButton : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D collision)
     {
+        if (collision.tag == "WaveButtonF")
+        {
+            isInteracting = false;
+        }
         if (collision.tag == "WaveButtonD")
         {
             isInteracting = false;
@@ -58,7 +68,7 @@ public class FightButton : MonoBehaviour
         }
         if (collision.tag == "WaveButtonS")
         {
-            scoreMultiplyer = 0.5f;
+            scoreMultiplyer = -0.5f;
         }
     }
 }
