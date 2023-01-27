@@ -1583,5 +1583,9 @@ PrefabInstance:
       propertyPath: m_Name
       value: WaveButtonD
       objectReference: {fileID: 0}
+    - target: {fileID: 1361660768090295484, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+      propertyPath: m_SortingOrder
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
