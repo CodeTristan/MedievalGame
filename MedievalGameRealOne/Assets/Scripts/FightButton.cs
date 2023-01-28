@@ -18,7 +18,7 @@ public class FightButton : MonoBehaviour
             if(isInteracting)
             {
                 audioManager.PlaySound("kick");
-                waveManager.currentWave.damage += 5 * scoreMultiplyer;
+                waveManager.currentWave.damage -= (1/(float)waveManager.currentWave.circles.Length) * scoreMultiplyer;
                 //Add animations
 
                 Destroy(currentCircle.gameObject);
@@ -30,26 +30,26 @@ public class FightButton : MonoBehaviour
     {
         if (collision.tag == "WaveButtonF")
         {
-            scoreMultiplyer = -2f;
+            scoreMultiplyer = +2f;
             isInteracting = true;
             currentCircle = collision.gameObject.transform.parent.parent.parent.gameObject;
 
         }
         if (collision.tag == "WaveButtonD")
         {
-            scoreMultiplyer = -0.5f;
+            scoreMultiplyer = +0.5f;
             isInteracting = true;
             currentCircle = collision.gameObject;
         }
         if (collision.tag == "WaveButtonB")
         {
-            scoreMultiplyer = 1f;
+            scoreMultiplyer = -1f;
             isInteracting = true;
             currentCircle = collision.gameObject.transform.parent.gameObject;
         }
         if (collision.tag == "WaveButtonS")
         {
-            scoreMultiplyer = 2f;
+            scoreMultiplyer = 0f;
             isInteracting = true;
             currentCircle = collision.gameObject.transform.parent.parent.gameObject;
         }
@@ -78,11 +78,11 @@ public class FightButton : MonoBehaviour
         }
         if (collision.tag == "WaveButtonB")
         {
-            scoreMultiplyer = 1f;
+            scoreMultiplyer = -1f;
         }
         if (collision.tag == "WaveButtonS")
         {
-            scoreMultiplyer = -0.5f;
+            scoreMultiplyer = 0f;
         }
     }
 }

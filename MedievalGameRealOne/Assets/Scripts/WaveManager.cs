@@ -10,6 +10,7 @@ public class WaveManager : MonoBehaviour
 
     [SerializeField] private string DialogName;
     [SerializeField] private float firstCircleDelay;
+    [SerializeField] private int darknessSpawnCircleCount;
     public GameObject prefab;
     public ColorChange ch;
     public Gradient fade;
@@ -27,13 +28,16 @@ public class WaveManager : MonoBehaviour
     private Animator lightAnimator;
     private bool lightOn = true;
     private DialogManager dialogManager;
+    private int currentCircleCount;
     private void Start()
     {
         dialogManager = FindObjectOfType<DialogManager>();
         lightSc = LightGameObject.GetComponent<Light2D>();
         lightAnimator = LightGameObject.GetComponent<Animator>();
         currentWave = waves[0];
-        if(CanSpawnWave)
+        currentDarknessTimer = currentWave.darkTimeTimer;
+        currentWave.damage = 1;
+        if (CanSpawnWave)
             StartCoroutine(SpawnWave(currentWave));
     }
 
@@ -55,7 +59,7 @@ public class WaveManager : MonoBehaviour
         }
 
 
-        damageText.text = currentWave.damage.ToString();
+        damageText.text = "%"+ (currentWave.damage * 100).ToString();
 
         currentDarknessTimer -= Time.deltaTime;
         if (currentDarknessTimer < 1 && lightout.color.a == 0)
@@ -63,7 +67,7 @@ public class WaveManager : MonoBehaviour
             ch.StopAllCoroutines();
             ch.ChangeColorStart(2, fade, lightout, null, true);
         }
-        if (currentDarknessTimer < 0)
+        if (currentDarknessTimer < 0 && currentCircleCount < darknessSpawnCircleCount)
         {
             if(lightOn == false && currentWave.darknessFakeCount > 0)
             {
@@ -104,7 +108,8 @@ public class WaveManager : MonoBehaviour
         currentDarknessTimer = wave.darkTimeTimer;
         for (int i = 0; i < wave.circles.Length; i++)
         {
-            Instantiate(wave.circles[i].prefab, spawnPoint.position, Quaternion.identity);
+            Instantiate(wave.circles[i].prefab, spawnPoint.position, Quaternion.identity).gameObject.GetComponent<fightWaveButton>().currentWave = this.currentWave;
+            currentCircleCount = GameObject.FindGameObjectsWithTag("WaveButtonD").Length;
             yield return new WaitForSeconds(wave.circles[i].nextCircleSpawnDelay);
         }
 
