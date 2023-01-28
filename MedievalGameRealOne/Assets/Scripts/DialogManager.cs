@@ -26,11 +26,13 @@ public class DialogManager : MonoBehaviour
     private Queue<string> sentences;
     private int dialogIndex;
     private string sentence;
+    [SerializeField] private bool showFirstDialogDebug;
     private void Start()
     {
         dialogs = new List<Dialog>();
         sentences = new Queue<string>();
-        //GetDialogs(FindPath("text"));
+        if(showFirstDialogDebug)
+            GetDialogs(FindPath("StartDialog"));
     }
 
     private void Update()
@@ -39,6 +41,7 @@ public class DialogManager : MonoBehaviour
         {
             if (dialogText.text != sentence)
             {
+                StopAllCoroutines();
                 dialogText.text = sentence;
             }
             else
@@ -90,7 +93,10 @@ public class DialogManager : MonoBehaviour
         {
             sentences.Enqueue(sentence);
         }
-        
+
+        //Renaming speakers name
+        nameText.text = currentDialog.name;
+
         //Checking if there are character sprite
         if(currentDialog.dialogSprite == null)
         {

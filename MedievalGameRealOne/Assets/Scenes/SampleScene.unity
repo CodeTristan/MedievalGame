@@ -985,7 +985,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Sir Vergil
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -1611,10 +1611,11 @@ MonoBehaviour:
   AllSprites:
   - {fileID: 21300000, guid: c7aaccb3c562f9449b1bbfabdd82c908, type: 3}
   AllDialogPaths:
-  - text
+  - StartDialog
   AllFullScreenImages:
   - {fileID: 21300000, guid: 04762b6177fba9546bc826d4f8301d1c, type: 3}
   dialogs: []
+  showFirstDialogDebug: 1
 --- !u!1 &1734995781
 GameObject:
   m_ObjectHideFlags: 0
