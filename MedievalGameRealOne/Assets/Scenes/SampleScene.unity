@@ -1078,7 +1078,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1049913881
 Transform:
   m_ObjectHideFlags: 0
@@ -1610,8 +1610,15 @@ MonoBehaviour:
   typeDelay: 0.015
   AllSprites:
   - {fileID: 21300000, guid: c7aaccb3c562f9449b1bbfabdd82c908, type: 3}
+  - {fileID: 21300000, guid: fbc45e5d60445bc4dae13f02cc99b36b, type: 3}
+  - {fileID: 21300000, guid: c86fa584193b38e4eb2f3921ee18854d, type: 3}
+  - {fileID: 21300000, guid: d860930c421c9a04aa504bda90e377e7, type: 3}
   AllDialogPaths:
   - StartDialog
+  - KingForestFirstDialog
+  - KingForestDeep
+  - KingFirstDialog
+  - KingCastleFrontFirstDialog
   AllFullScreenImages:
   - {fileID: 21300000, guid: 04762b6177fba9546bc826d4f8301d1c, type: 3}
   dialogs: []
@@ -1664,6 +1671,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveManager: {fileID: 1049913882}
+  audioManager: {fileID: 0}
   scoreMultiplyer: 0
   isInteracting: 0
 --- !u!50 &1734995785
@@ -1946,8 +1954,8 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 56
-  m_fontSizeBase: 56
+  m_fontSize: 75
+  m_fontSizeBase: 75
   m_fontWeight: 400
   m_enableAutoSizing: 0
   m_fontSizeMin: 18

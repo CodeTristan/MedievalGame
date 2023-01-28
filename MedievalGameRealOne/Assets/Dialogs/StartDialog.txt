@@ -1,4 +1,5 @@
 -
+&KingFirstDialog
 In the lands of hopes, there was a kingdom.
 A kingdom, which ruled by a peaceful king.
 But one day something unexpected happened.

@@ -1,0 +1,34 @@
+-Virgilius
+*King
+$BGCastleFront
+&KingForestFirstDialog
+Wow there are a lot of knights in here. Hey you!
+<
+-Knight
+Yes sir!
+<
+-Virgilius
+*King
+Report our current situation. What is our purpouse?
+<
+-Knight
+Sir is this one of your tests?
+...
+We suspect that forest people kidnapped our king!
+As you say, all bads come from forest! 
+So you ordered to gather all of the knights for all out attack to forest people!
+Sir, we are ready to go! We will die for our cause. Right folks!
+<
+-Group of Knights
+Hurraaaaaaay!
+<
+-Virgilius
+*King
+Our king?
+Oh we can't let that happen! We must protect our king!
+Lets go and kill those scums!
+<
+-Group of Knights
+Hurraaaaaaay!
+<
+

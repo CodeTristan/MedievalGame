@@ -6,6 +6,7 @@ using System.Text;
 using System;
 using TMPro;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
 public class DialogManager : MonoBehaviour
 {
@@ -29,6 +30,7 @@ public class DialogManager : MonoBehaviour
     [SerializeField] private bool showFirstDialogDebug;
     private Sprite FullSCreenImageToShow;
     private string currentDialogPath;
+    private string fightLevelName;
     private void Start()
     {
         dialogs = new List<Dialog>();
@@ -133,6 +135,11 @@ public class DialogManager : MonoBehaviour
 
     public void EndDialog()
     {
+        if(fightLevelName != null && fightLevelName != "")
+        {
+            SceneManager.LoadScene(fightLevelName);
+            return;
+        }
         if(currentDialogPath == null)
         {
             dialogScreen.SetActive(false);
@@ -161,6 +168,8 @@ public class DialogManager : MonoBehaviour
         dialogIndex = 0;
         sentences.Clear();
         FullSCreenImageToShow = null;
+        fightLevelName = null;
+        currentDialogPath = null;
 
         while (reader.EndOfStream == false)
         {
@@ -218,23 +227,36 @@ public class DialogManager : MonoBehaviour
                 }
 
                 //Next Dialog to display
-                else if (reader.Peek() == '&')
+                if (reader.Peek() == '&')
                 {
                     reader.Read(); // Skips '&' char
                     currentDialogPath = FindPath(reader.ReadLine());
                 }
 
                 // '/' is for using special characters in first line so it skips it
-                else if(reader.Peek() == '/')
+                if(reader.Peek() == '/')
                 {
                     reader.Read();  //Skips '/' char
                     tempDialog.sentences.Add(reader.ReadLine());
+                }
+
+                // '%' is for battlefield level name
+                if (reader.Peek() == '%')
+                {
+                    reader.Read();  //Skips '%' char
+                    fightLevelName = reader.ReadLine();
                 }
 
 
             }
             else
             {
+                if (reader.Peek() == '/')
+                {
+                    reader.Read();  //Skips '/' char
+                    tempDialog.sentences.Add(reader.ReadLine());
+                }
+
                 tempDialog.sentences.Add(reader.ReadLine());
             }
 
@@ -242,30 +264,30 @@ public class DialogManager : MonoBehaviour
 
         //Debugs
 
-        Debug.Log(dialogs.Count);
+        //Debug.Log(dialogs.Count);
 
-        for (int i = 0; i < dialogs.Count; i++)
-        {
-            Debug.Log("Name: " + dialogs[i].name);
+        //for (int i = 0; i < dialogs.Count; i++)
+        //{
+        //    Debug.Log("Name: " + dialogs[i].name);
 
-            if (dialogs[i].dialogSprite != null)
-                Debug.Log("Sprite: " + dialogs[i].dialogSprite.name);
-            else
-                Debug.Log("Sprite: null");
+        //    if (dialogs[i].dialogSprite != null)
+        //        Debug.Log("Sprite: " + dialogs[i].dialogSprite.name);
+        //    else
+        //        Debug.Log("Sprite: null");
 
-            for (int j = 0; j < dialogs[i].sentences.Count; j++)
-            {
-                Debug.Log(dialogs[i].sentences[j]);
-            }
+        //    for (int j = 0; j < dialogs[i].sentences.Count; j++)
+        //    {
+        //        Debug.Log(dialogs[i].sentences[j]);
+        //    }
 
-            Debug.Log("-------");
-        }
+        //    Debug.Log("-------");
+        //}
 
+        Debug.Log(fightLevelName);
         //Closes the StreamReader
         reader.Close();
 
         //TO-DO: Connect UI with code.
-        currentDialogPath = null;
         StartDialog();
     }
 

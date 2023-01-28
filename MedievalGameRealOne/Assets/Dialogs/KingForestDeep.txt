@@ -1,0 +1,76 @@
+-Virgilius
+*King
+$BGForest
+%Fight1
+Where is she?
+...
+Oh shit, there is some there.
+But it's not her. Is he hostile?
+<
+-Virgilius
+*King
+Well hello there!
+<
+-Shady Man
+*Giarna
+What are you doing here? You weren't suppose to come back. Thats what we agreed!
+<
+-Virgilius
+*King
+Oh so you know me aswell... What is your name? I forgot.
+<
+-Giarna
+*Giarna
+How can you for- Nevermind... It's Giarna.
+Now go before someone sees you.
+<
+-Virgilius
+*King
+No! I won't go before I get answers.
+Now tell me... Have I killed someone before?
+<
+-Giarna
+*Giarna
+HAHAHAHAHHAHAHAHHAHA...
+...
+Oh you are serious. Well you fucking burned all of our houses down.
+You and your army caused so much trouble last a few years.
+But it is fine for me as long as we have our little agreement.
+<
+-Virgilius
+*King
+Agreement?
+<
+-Giarna
+*Giarna
+You know... We sell you weapons and you keep fighting. In the end, you will let me live inside the castle.
+But that stupid king wants to end the war. We can't let that happen, can we?
+Otherwise, how are we going to get rich right?
+<
+-Virgilius
+*King
+So you kidnapped the King!
+<
+-Giarna
+*Giarna
+The king has been kidnapped? What! When?
+Ohohoho... Thats very good.
+It was about time someone killed that idiot.
+You know the ones who want to fight will always find a way.
+If you be a peaceful king like that. You will get killed eventually.
+<
+-Virgilius
+*King
+How can you say those things about our king!
+You will pay for that!
+<
+-
+...
+<
+-GUIDE
+In battle screen, listen the music and follow the rhythm.
+Press any of the "X", "Z" or "Space" buttons in the right time.
+Be alert because sometimes enemy attacks cause your eyes to shut. So there will be no light for a few seconds.
+If you manage to get at least %60, you win the battle.
+<
+-END-

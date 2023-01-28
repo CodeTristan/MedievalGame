@@ -1,0 +1,124 @@
+-Virgilius
+*King
+$BGForest
+&KingForestDeep
+Alright folks! Lets find our king!
+<
+-
+Belgio forest is one of the biggest forest in these lands.
+But it is known for it's rocky terrain. Horses can't go inside of this forest easily.
+Thus, forest people can defend their lands with their special bows and arrows against mighty knights.
+<
+-Virgilius
+*King
+What a terrible place...
+...
+Aaaaaaaaaaaaaaaaaaaaaaaaaaaaahhhh...
+<
+-
+#FallSound
+/*Dummm*
+<
+-Voice from up
+Sir Virgilius has fallen down! Go find him!
+<
+-Virgilius
+*King
+Damn... That was a long fall...
+These lands are so damn slippery and also full of rocks!
+GOD DAMMIT! WHAT IS GOING ON TODAY! ENOUGH ALREADY!
+First my memory, then this...
+<
+-Voice
+Who is there?
+<
+-Virgilius
+*King
+It's me. I'm here!
+Can you help me? I can't get up. This stupid armor is so heavy.
+<
+-Forest Lady
+*Olga
+It's you...
+What are you doing in here? How dare you come back?
+<
+-Virgilius
+*King
+Yeeaa... It's me...
+(Oh god what a stunning woman...)
+Can you help me get up?
+<
+-Forest Lady
+*Olga
+You want help? After all you've done!
+/*Places an arrow in her bow.*
+Finally I can kill you. After all these years I searched for you.
+<
+-Virgilius
+*King
+Hey hey hey. Put the bow down. What did I do to you.
+It is you guys who kidnapped our king right! 
+You should be ashamed, kidnapping is a dishonored action!
+<
+-Forest Lady
+*Olga
+Kidnapping king?
+Why on earth would we do that! He is the one who wants to stop this idiotic war.
+With his help, we can finally rest peacefully in our home without any concern.
+<
+-Virgilius
+*King
+So you didn't kidnap our king. Then who did?
+<
+-Forest Lady
+*Olga
+I have no idea, but you will pay for your sins.
+Burned our villages... Killed our family... even our children...
+<
+-Virgilius
+*King
+Holy shit... I did all of that? Damn... I'm sorry.
+<
+-Forest Lady
+*Olga
+You are sorry?
+AHAHAHAHAHAHAHAHAHAHA
+Stop it!
+<
+-Knight
+HALT!
+Leave our commander!
+<
+-Forest Lady
+*Olga
+Shit...
+I will see you again...
+<
+-
+Forest lady escapes from knights...
+<
+-Knight
+Sir, are you alright sir!
+<
+-Virgilius
+*King
+Yea... Can you help me to get up?
+Thanks...
+You guys can go back to the castle. King is not in here.
+<
+-Knight
+Are you sure sir?
+<
+-Virgilius
+*King
+Yes I am. Now go!
+<
+-Knight
+Sir, yes sir!
+<
+-Virgilius
+*King
+Damn... Have I really killed all those people?
+That lady has gone deep into forest. I must find her and learn about my past.
+<
+-END-

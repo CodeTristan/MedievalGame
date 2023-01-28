@@ -1,0 +1,41 @@
+-Man
+#KingMainMusic
+&KingCastleFrontFirstDialog
+Aghh... My head... Oh god I am thirsty.
+Where am I?
+...
+WHO AM I??
+WHATS GOING ON!?
+<
+-Man
+*King
+#ArmorSound
+Am I in an armor? 
+Oh damn I am a knight! Thank god!
+Where am I though?
+<
+-Knight
+Sir! We are waiting for you. What are your orders?
+...
+Sir?
+<
+-Man
+*King
+Oh, you're talking to me?
+What do you want?
+<
+-Knight
+Sir Virgilius, are you alright?
+All the knights are waiting for your orders. Should we go into the forest?
+<
+-Virgilius
+*King
+So my name is Virgilius...
+(I am a knight but also a commander? Oh damn I am a big guy.)
+Aaah... Yes, yes... Lets go. Fetch me some water will you?
+<
+-Knight
+(Using a knight to get water? Fucking highborn pricks.)
+Of course sir.
+<
+-END-
