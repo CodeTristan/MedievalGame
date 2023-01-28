@@ -36,6 +36,7 @@ public class DialogManager : MonoBehaviour
         dialogs = new List<Dialog>();
         sentences = new Queue<string>();
         currentDialogPath = "StartDialog";
+        dialogText.text = Application.streamingAssetsPath + "/Dialogs/" + AllDialogPaths[0] + ".txt";
         if (showFirstDialogDebug)
             GetDialogs(FindPath(currentDialogPath));
     }
@@ -155,10 +156,11 @@ public class DialogManager : MonoBehaviour
         //Tries to open file in given path.
         try
         {
-            reader = new StreamReader(path, Encoding.GetEncoding("ISO-8859-9"));
+            reader = new StreamReader(path);
         }
         catch (Exception e)
         {
+            dialogText.text = "File Exception occured: " + e.Message;
             Debug.LogError("File Exception occured: " + e.Message);
             return;
         }
@@ -316,7 +318,7 @@ public class DialogManager : MonoBehaviour
         {
             if(AllDialogPaths[i] == name)
             {
-                return "Assets/Dialogs/" + AllDialogPaths[i] + ".txt";
+                return Application.streamingAssetsPath + "/Dialogs/" + AllDialogPaths[i] + ".txt";
             }
         }
 
