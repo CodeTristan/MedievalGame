@@ -30,7 +30,7 @@ public class fightWaveButton : MonoBehaviour
 
     private void kill()
     {
-        currentWave.damage -= (1 / (float)currentWave.circles.Length) * 2;
+        currentWave.damage -= (1 / (float)currentWave.circles.Length);
         Destroy(gameObject);
     }
 }

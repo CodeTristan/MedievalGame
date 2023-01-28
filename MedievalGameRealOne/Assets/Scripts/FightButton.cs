@@ -45,7 +45,7 @@ public class FightButton : MonoBehaviour
         }
         if (collision.tag == "WaveButtonB")
         {
-            scoreMultiplyer = -0.5f;
+            scoreMultiplyer = -0.1f;
             isInteracting = true;
             currentCircle = collision.gameObject.transform.parent.gameObject;
         }
@@ -80,7 +80,7 @@ public class FightButton : MonoBehaviour
         }
         if (collision.tag == "WaveButtonB")
         {
-            scoreMultiplyer = -0.5f;
+            scoreMultiplyer = -0.1f;
         }
         if (collision.tag == "WaveButtonS")
         {
