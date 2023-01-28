@@ -1134,605 +1134,573 @@ MonoBehaviour:
     darknessFakeCount: 1
     musicName: Music1
     circles:
-    - nextCircleSpawnDelay: 0.58410954
+    - nextCircleSpawnDelay: 0.62628204
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1.1575264
+    - nextCircleSpawnDelay: 1.0022792
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.1737549
+    - nextCircleSpawnDelay: 0.21140392
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.35665348
+    - nextCircleSpawnDelay: 0.40627107
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.31798044
+    - nextCircleSpawnDelay: 0.3843116
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.3248183
+    - nextCircleSpawnDelay: 0.32187292
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.42495507
+    - nextCircleSpawnDelay: 0.5188447
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.39241174
+    - nextCircleSpawnDelay: 0.3608381
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.31967324
+    - nextCircleSpawnDelay: 0.2402076
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.7466437
+    - nextCircleSpawnDelay: 0.90243405
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.87784386
+    - nextCircleSpawnDelay: 0.7841456
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.25556296
+    - nextCircleSpawnDelay: 0.26840162
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.28427243
+    - nextCircleSpawnDelay: 0.26223832
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.49662566
+    - nextCircleSpawnDelay: 0.41491514
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.339961
+    - nextCircleSpawnDelay: 0.34670347
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.26847383
+    - nextCircleSpawnDelay: 0.2912656
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.46857494
+    - nextCircleSpawnDelay: 0.43272433
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.38528556
+    - nextCircleSpawnDelay: 0.39784554
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.4312177
+    - nextCircleSpawnDelay: 0.2975676
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.670294
+    - nextCircleSpawnDelay: 0.80856836
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1.1348687
+    - nextCircleSpawnDelay: 1.1004596
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.20421062
+    - nextCircleSpawnDelay: 0.2200661
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.20188029
+    - nextCircleSpawnDelay: 0.4509923
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.3544633
+    - nextCircleSpawnDelay: 0.3570895
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.31454968
+    - nextCircleSpawnDelay: 0.29539976
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.24717069
+    - nextCircleSpawnDelay: 0.4349215
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.48497763
+    - nextCircleSpawnDelay: 0.3785388
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.3488361
+    - nextCircleSpawnDelay: 0.32806093
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.33740515
+    - nextCircleSpawnDelay: 0.75610155
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.7615759
+    - nextCircleSpawnDelay: 0.96949387
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.8931048
+    - nextCircleSpawnDelay: 0.27440712
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.2730997
+    - nextCircleSpawnDelay: 0.25305754
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.25930414
+    - nextCircleSpawnDelay: 0.4558504
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.5144515
+    - nextCircleSpawnDelay: 0.40160626
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.41371888
+    - nextCircleSpawnDelay: 0.42733544
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.35758615
+    - nextCircleSpawnDelay: 0.49454394
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.54322594
+    - nextCircleSpawnDelay: 0.6035784
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 0.44748837
+    - nextCircleSpawnDelay: 3.530006
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1973766
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.15880793
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2523302
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22772112
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19370238
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24124767
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19470842
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3081553
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2123851
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1667276
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17703341
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17767018
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2491736
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23711705
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20544489
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.30767834
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22667652
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2097813
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.16211791
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.28550512
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24654672
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.318412
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.18657278
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2802346
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.25319496
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20308836
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.28072593
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2397514
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21169084
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2323806
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.32755792
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20688578
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22152622
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22116432
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.31912178
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2669248
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2591017
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.35289156
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22839184
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2459812
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17538589
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.16686895
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.98057854
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2140236
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19750243
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21059878
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.30198893
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22448972
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21526596
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2755707
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.15472661
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.37395048
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20358507
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.28899258
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20482612
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24735004
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.273339
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.37264842
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23334904
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19153078
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.34103397
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21290262
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23341063
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2635411
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.18769358
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.35380387
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2303154
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17184697
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.25420398
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22715132
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2492057
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19042459
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3338562
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19083332
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23920004
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1489018
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.26262453
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20959722
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19945702
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2282297
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.16702327
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.4096221
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20992668
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.25457597
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2952265
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.32869652
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24977368
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.29705
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22117206
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2146535
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1475317
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.25069016
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21701404
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22047654
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24295127
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.15618043
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.32064432
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23536126
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17609031
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19938475
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.9600652
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20646591
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.9699938
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.39005065
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23807837
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 1.106264
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5128319
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.41377363
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 3.4473567
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1757637
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.14521809
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 1.0443574
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.276136
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.27210572
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 1.0107943
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.47145334
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.40662214
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5359953
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 2.8180573
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1810585
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17181079
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.15082708
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 1.0820924
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.30904654
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2132697
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 1.0686245
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.5866909
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3168746
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.58088046
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 2.624613
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19687562
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19603778
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1558829
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 1.0683515
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.38755682
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2172022
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.8187342
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.7145466
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.51307905
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.6508413
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 2.932373
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2695323
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.31436655
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.66109264
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21351431
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21251759
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24991041
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.30480012
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.31721744
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.7027064
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21725433
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.18731168
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3758139
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.30000448
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.67982876
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20110911
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22908172
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23177838
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.33135965
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20487517
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.83244133
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.1673871
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2554954
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.32459807
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24289031
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.7846433
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24203815
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24802722
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.36260706
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23948526
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.75514513
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24815539
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.26220715
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3448786
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23706673
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2165636
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24162075
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22730011
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3137089
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.26065862
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23446071
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3506596
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23661803
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19773908
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2091988
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.41801906
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20421489
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.63411915
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 1.0165828
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.18537728
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.32404792
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.35207883
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.24024709
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.36047834
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.27828687
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2759416
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.64128155
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.7157184
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.23701829
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21907878
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3515194
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.32728335
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21920371
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.40081188
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2728698
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.31483707
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.61216503
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.9931224
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17454098
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.31061694
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3463051
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22892177
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.42252478
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.28456017
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.29566884
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.6612707
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.70610213
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.25768
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21149497
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.41019568
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.30418962
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21623679
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.37328696
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3289784
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.36174268
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22732428
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.17124262
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3571093
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.28395486
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.33412102
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.37949312
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2530193
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.20178366
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.34560573
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.22023551
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.19965969
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.35067433
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.41656983
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.21819884
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.37416762
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.25661352
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2705914
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.32980302
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.3328519
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2848662
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
-      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
-    - nextCircleSpawnDelay: 1
+    - nextCircleSpawnDelay: 0.2485925
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
   currentWave:
     isDefensive: 0
