@@ -27,8 +27,19 @@ public class WaveManager : MonoBehaviour
             StartCoroutine(SpawnWave(currentWave));
     }
 
+    int clicknumber = -1;
+    float elapsedtime;
     private void Update()
     {
+        elapsedtime += Time.deltaTime;
+        if (Input.GetMouseButtonDown(0))
+        {
+            Debug.Log(clicknumber+" "+elapsedtime);
+            clicknumber++;
+            elapsedtime = 0;
+        }
+
+
         damageText.text = currentWave.damage.ToString();
 
         currentDarknessTimer -= Time.deltaTime;
@@ -61,6 +72,9 @@ public class WaveManager : MonoBehaviour
     }
     public IEnumerator SpawnWave(Wave wave)
     {
+        //Add Music
+        soundManager.PlaySound(wave.musicName);
+
         currentDarknessTimer = wave.darkTimeTimer;
         for (int i = 0; i < wave.circles.Length; i++)
         {
@@ -68,7 +82,6 @@ public class WaveManager : MonoBehaviour
             yield return new WaitForSeconds(wave.circles[i].nextCircleSpawnDelay);
         }
 
-        //Add Music
-        soundManager.PlaySound(wave.musicName);
+        
     }
 }

@@ -41,7 +41,7 @@ public class Sounds : MonoBehaviour
         }
         else
         {
-            Debug.LogError(soundname + " Sound Name Not Valid");
+            Debug.LogWarning(soundname + " Sound Name Not Valid");
         }
     }
 
