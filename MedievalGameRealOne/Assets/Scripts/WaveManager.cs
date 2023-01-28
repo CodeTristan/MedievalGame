@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class WaveManager : MonoBehaviour
 {
+    public GameObject prefab;
     [SerializeField] private string DialogName;
     public ColorChange ch;
     public Gradient fade;
@@ -42,6 +43,11 @@ public class WaveManager : MonoBehaviour
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log(clicknumber+" "+elapsedtime);
+            if (clicknumber!=-1)
+            {
+                waves[0].circles[clicknumber].nextCircleSpawnDelay = elapsedtime;
+                waves[0].circles[clicknumber].prefab = prefab;
+            }
             clicknumber++;
             elapsedtime = 0;
         }
