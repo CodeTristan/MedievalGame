@@ -27,12 +27,15 @@ public class DialogManager : MonoBehaviour
     private int dialogIndex;
     private string sentence;
     [SerializeField] private bool showFirstDialogDebug;
+    private Sprite FullSCreenImageToShow;
+    private string currentDialogPath;
     private void Start()
     {
         dialogs = new List<Dialog>();
         sentences = new Queue<string>();
-        if(showFirstDialogDebug)
-            GetDialogs(FindPath("StartDialog"));
+        currentDialogPath = "StartDialog";
+        if (showFirstDialogDebug)
+            GetDialogs(FindPath(currentDialogPath));
     }
 
     private void Update()
@@ -109,14 +112,14 @@ public class DialogManager : MonoBehaviour
         }
 
         //Checking if there are fullscreen images
-        if (currentDialog.fullScreenImageSprite == null)
+        if (FullSCreenImageToShow == null)
         {
             fullScreenImage.gameObject.SetActive(false);
         }
         else
         {
             fullScreenImage.gameObject.SetActive(true);
-            fullScreenImage.sprite = currentDialog.fullScreenImageSprite;
+            fullScreenImage.sprite = FullSCreenImageToShow;
         }
 
         //Checking if there are sound effects
@@ -130,7 +133,14 @@ public class DialogManager : MonoBehaviour
 
     public void EndDialog()
     {
-        dialogScreen.SetActive(false);
+        if(currentDialogPath == null)
+        {
+            dialogScreen.SetActive(false);
+        }
+        else
+        {
+            GetDialogs(currentDialogPath);
+        }
     }
     public void GetDialogs(string path)
     {
@@ -150,6 +160,7 @@ public class DialogManager : MonoBehaviour
         dialogs.Clear();
         dialogIndex = 0;
         sentences.Clear();
+        FullSCreenImageToShow = null;
 
         while (reader.EndOfStream == false)
         {
@@ -163,6 +174,7 @@ public class DialogManager : MonoBehaviour
             // * means speaker's sprite
             // # means sound effect to play
             // $ means full screen picture to show
+            // & means next dialog to display
             if (reader.Peek() == '-') 
             {
                 if (tempDialog.sentences.Count > 0)
@@ -188,7 +200,7 @@ public class DialogManager : MonoBehaviour
 
 
                 //Sound Effect
-                if (reader.Peek() == '*')
+                if (reader.Peek() == '#')
                 {
                     reader.Read(); // Skips '#' char
                     tempDialog.soundName = reader.ReadLine();  //Reads sound name.
@@ -202,13 +214,16 @@ public class DialogManager : MonoBehaviour
                 if (reader.Peek() == '$')
                 {
                     reader.Read(); // Skips '$' char
-                    tempDialog.fullScreenImageSprite = FindFullScreenImageSprite(reader.ReadLine());
+                    FullSCreenImageToShow = FindFullScreenImageSprite(reader.ReadLine());
                 }
-                else
+
+                //Next Dialog to display
+                else if (reader.Peek() == '&')
                 {
-                    tempDialog.fullScreenImageSprite = null;
+                    reader.Read(); // Skips '&' char
+                    currentDialogPath = FindPath(reader.ReadLine());
                 }
-                
+
 
             }
             else
@@ -243,6 +258,7 @@ public class DialogManager : MonoBehaviour
         reader.Close();
 
         //TO-DO: Connect UI with code.
+        currentDialogPath = null;
         StartDialog();
     }
 

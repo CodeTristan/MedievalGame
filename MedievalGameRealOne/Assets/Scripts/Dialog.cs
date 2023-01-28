@@ -8,7 +8,6 @@ public class Dialog
     public string name;
     public List<string> sentences;
     public Sprite dialogSprite;
-    public Sprite fullScreenImageSprite;
     public string soundName;
     public Dialog()
     {
