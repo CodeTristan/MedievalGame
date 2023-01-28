@@ -7,6 +7,7 @@ using UnityEngine.UI;
 
 public class WaveManager : MonoBehaviour
 {
+    [SerializeField] private string DialogName;
     public ColorChange ch;
     public Gradient fade;
     public Image lightout;
@@ -22,8 +23,10 @@ public class WaveManager : MonoBehaviour
     private Light2D lightSc;
     private Animator lightAnimator;
     private bool lightOn = true;
+    private DialogManager dialogManager;
     private void Start()
     {
+        dialogManager = FindObjectOfType<DialogManager>();
         lightSc = LightGameObject.GetComponent<Light2D>();
         lightAnimator = LightGameObject.GetComponent<Animator>();
         currentWave = waves[0];
@@ -47,9 +50,10 @@ public class WaveManager : MonoBehaviour
         damageText.text = currentWave.damage.ToString();
 
         currentDarknessTimer -= Time.deltaTime;
-        if (currentDarknessTimer < 1&&lightout.color.a==0)
+        if (currentDarknessTimer < 1 && lightout.color.a == 0)
         {
-            StartCoroutine(ch.ChangeColor(2, fade, lightout, null, true));
+            ch.StopAllCoroutines();
+            ch.ChangeColorStart(2, fade, lightout, null, true);
         }
         if (currentDarknessTimer < 0)
         {
@@ -57,6 +61,8 @@ public class WaveManager : MonoBehaviour
             {
                 currentWave.darknessFakeCount--;
                 lightAnimator.SetTrigger("LightFake");
+                ch.StopAllCoroutines();
+                ch.ChangeColorStart(5, fade, lightout, null, true);
                 //lightAnimator.ResetTrigger("LightFake");
                 currentDarknessTimer = currentWave.darkTimeTimer + 5;
             }
@@ -65,7 +71,8 @@ public class WaveManager : MonoBehaviour
                 lightOn = false;
                 lightSc.intensity = 0;
                 lightAnimator.SetTrigger("LightOut");
-                StartCoroutine(ch.ChangeColor(2, fade, lightout, null, false));
+                ch.StopAllCoroutines();
+                ch.ChangeColorStart(2, fade, lightout, null, false);
                 //  lightAnimator.ResetTrigger("LightOff");
                 currentDarknessTimer = currentWave.darknessTime;
             }
@@ -91,6 +98,7 @@ public class WaveManager : MonoBehaviour
             yield return new WaitForSeconds(wave.circles[i].nextCircleSpawnDelay);
         }
 
-        
+        yield return new WaitForSeconds(3);
+        dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
     }
 }

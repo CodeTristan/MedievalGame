@@ -36,7 +36,6 @@ public class DialogManager : MonoBehaviour
         dialogs = new List<Dialog>();
         sentences = new Queue<string>();
         currentDialogPath = "StartDialog";
-        dialogText.text = Application.streamingAssetsPath + "/Dialogs/" + AllDialogPaths[0] + ".txt";
         if (showFirstDialogDebug)
             GetDialogs(FindPath(currentDialogPath));
     }
@@ -312,7 +311,7 @@ public class DialogManager : MonoBehaviour
     }
 
     //Finds the given text file's path in assets.
-    private string FindPath(string name)
+    public string FindPath(string name)
     {
         for (int i = 0; i < AllDialogPaths.Length; i++)
         {

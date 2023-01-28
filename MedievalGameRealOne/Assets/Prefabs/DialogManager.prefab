@@ -1,0 +1,68 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &381328234346953862
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 381328234346953863}
+  - component: {fileID: 381328234346953860}
+  m_Layer: 0
+  m_Name: DialogManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &381328234346953863
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381328234346953862}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &381328234346953860
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 381328234346953862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 985b27fb8854ee8418268481443384a7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  soundManager: {fileID: 0}
+  nameText: {fileID: 0}
+  dialogText: {fileID: 0}
+  charImage: {fileID: 0}
+  fullScreenImage: {fileID: 0}
+  dialogScreen: {fileID: 0}
+  typeDelay: 0.015
+  AllSprites:
+  - {fileID: 21300000, guid: c7aaccb3c562f9449b1bbfabdd82c908, type: 3}
+  - {fileID: 21300000, guid: fbc45e5d60445bc4dae13f02cc99b36b, type: 3}
+  - {fileID: 21300000, guid: c86fa584193b38e4eb2f3921ee18854d, type: 3}
+  - {fileID: 21300000, guid: d860930c421c9a04aa504bda90e377e7, type: 3}
+  AllDialogPaths:
+  - StartDialog
+  - KingForestFirstDialog
+  - KingForestDeep
+  - KingFirstDialog
+  - KingCastleFrontFirstDialog
+  AllFullScreenImages:
+  - {fileID: 21300000, guid: 04762b6177fba9546bc826d4f8301d1c, type: 3}
+  dialogs: []
+  showFirstDialogDebug: 1

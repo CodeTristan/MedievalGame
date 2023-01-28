@@ -7,7 +7,7 @@ using Image = UnityEngine.UI.Image;
 
 public class ColorChange : MonoBehaviour
 {
-    public IEnumerator ChangeColor(float time,Gradient gradient, Image image, SpriteRenderer sprite,bool reverse)
+    private IEnumerator ChangeColor(float time,Gradient gradient, Image image, SpriteRenderer sprite,bool reverse)
     {
         Color c;
         float elapsedTime = 0.0f;
@@ -33,5 +33,10 @@ public class ColorChange : MonoBehaviour
             }
         }
         
+    }
+    
+    public void ChangeColorStart(float time, Gradient gradient, Image image, SpriteRenderer sprite, bool reverse)
+    {
+        StartCoroutine(ChangeColor(time,gradient,image,sprite,reverse));
     }
 }
