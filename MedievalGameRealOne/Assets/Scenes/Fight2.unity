@@ -1131,7 +1131,7 @@ MonoBehaviour:
   waves:
   - isDefensive: 0
     damage: 0
-    darkTimeTimer: 6
+    darkTimeTimer: 10
     darknessTime: 0.5
     darknessFakeCount: 1
     musicName: Music1
