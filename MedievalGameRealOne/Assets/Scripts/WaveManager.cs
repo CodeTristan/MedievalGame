@@ -3,9 +3,13 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.Rendering.Universal;
+using UnityEngine.UI;
 
 public class WaveManager : MonoBehaviour
 {
+    public ColorChange ch;
+    public Gradient fade;
+    public Image lightout;
     [SerializeField] private Sounds soundManager;
     [SerializeField] private GameObject LightGameObject;
     public Transform spawnPoint;
@@ -43,7 +47,11 @@ public class WaveManager : MonoBehaviour
         damageText.text = currentWave.damage.ToString();
 
         currentDarknessTimer -= Time.deltaTime;
-        if(currentDarknessTimer < 0)
+        if (currentDarknessTimer < 1&&lightout.color.a==0)
+        {
+            StartCoroutine(ch.ChangeColor(2, fade, lightout, null, true));
+        }
+        if (currentDarknessTimer < 0)
         {
             if(lightOn == false && currentWave.darknessFakeCount > 0)
             {
@@ -52,12 +60,13 @@ public class WaveManager : MonoBehaviour
                 //lightAnimator.ResetTrigger("LightFake");
                 currentDarknessTimer = currentWave.darkTimeTimer + 5;
             }
-            if(lightOn == true)  //Means: light is on, turn it off
+            if (lightOn == true)  //Means: light is on, turn it off
             {
                 lightOn = false;
                 lightSc.intensity = 0;
                 lightAnimator.SetTrigger("LightOut");
-              //  lightAnimator.ResetTrigger("LightOff");
+                StartCoroutine(ch.ChangeColor(2, fade, lightout, null, false));
+                //  lightAnimator.ResetTrigger("LightOff");
                 currentDarknessTimer = currentWave.darknessTime;
             }
             else
@@ -65,7 +74,7 @@ public class WaveManager : MonoBehaviour
                 lightOn = true;
                 lightSc.intensity = 1;
                 lightAnimator.SetTrigger("LightIn");
-             //   lightAnimator.ResetTrigger("LightIn");
+                //   lightAnimator.ResetTrigger("LightIn");
                 currentDarknessTimer = currentWave.darkTimeTimer;
             }
         }
