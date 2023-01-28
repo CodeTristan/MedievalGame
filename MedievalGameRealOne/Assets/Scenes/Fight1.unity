@@ -1164,6 +1164,158 @@ MonoBehaviour:
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
     - nextCircleSpawnDelay: 0.23
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.23
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 1.7
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 1.1
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.64
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.83
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.86
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 1.7
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 1.8
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.78
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.94
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.87
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.97
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 1.7
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 3.2
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 1.7
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 3.1
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 3.5
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 1
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.97
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.88
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.84
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.81
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.88
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.89
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.86
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.82
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.85
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.87
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.85
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.85
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.84
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.91
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.77
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.71
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.53
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.26
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.9
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.19
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.16
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.35
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.45
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.199
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.2
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.439
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.476
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.2
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.17
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.45
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.5
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.2
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.2
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.39
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 2.4
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.16
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.33
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.5
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.19
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.19
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.45
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.48
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.19
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.19
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.46
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.45
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.19
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.19
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.42
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 2.4
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.57
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.84
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.8
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.88
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.9
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.84
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.88
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
+    - nextCircleSpawnDelay: 0.82
+      prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
   currentWave:
     isDefensive: 0
     damage: 0
