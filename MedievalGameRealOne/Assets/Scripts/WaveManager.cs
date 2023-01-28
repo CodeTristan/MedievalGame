@@ -7,8 +7,10 @@ using UnityEngine.UI;
 
 public class WaveManager : MonoBehaviour
 {
-    public GameObject prefab;
+
     [SerializeField] private string DialogName;
+    [SerializeField] private float firstCircleDelay;
+    public GameObject prefab;
     public ColorChange ch;
     public Gradient fade;
     public Image lightout;
@@ -96,6 +98,8 @@ public class WaveManager : MonoBehaviour
     {
         //Add Music
         soundManager.PlaySound(wave.musicName);
+
+        yield return new WaitForSeconds(firstCircleDelay);
 
         currentDarknessTimer = wave.darkTimeTimer;
         for (int i = 0; i < wave.circles.Length; i++)
