@@ -160,6 +160,13 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
+  - clip:
+    - {fileID: 8300000, guid: 0704918dc5afc8741856e2ad4f8dcdc7, type: 3}
+    name: kick
+    volume: 0.437
+    pitch: 1.96
+    loop: 0
+    source: {fileID: 0}
   o: {fileID: 0}
   p: {fileID: 0}
   audiosources: []
@@ -1720,6 +1727,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   waveManager: {fileID: 1049913882}
+  audioManager: {fileID: 108902613}
   scoreMultiplyer: 0
   isInteracting: 0
 --- !u!50 &1734995785

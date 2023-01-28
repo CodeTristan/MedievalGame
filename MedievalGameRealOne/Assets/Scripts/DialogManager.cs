@@ -224,6 +224,13 @@ public class DialogManager : MonoBehaviour
                     currentDialogPath = FindPath(reader.ReadLine());
                 }
 
+                // '/' is for using special characters in first line so it skips it
+                else if(reader.Peek() == '/')
+                {
+                    reader.Read();  //Skips '/' char
+                    tempDialog.sentences.Add(reader.ReadLine());
+                }
+
 
             }
             else

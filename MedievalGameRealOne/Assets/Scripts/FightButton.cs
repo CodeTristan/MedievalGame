@@ -5,6 +5,7 @@ using UnityEngine;
 public class FightButton : MonoBehaviour
 {
     [SerializeField] private WaveManager waveManager;
+    [SerializeField] private Sounds audioManager;
     [SerializeField] private float scoreMultiplyer;
     [SerializeField] private bool isInteracting;
 
@@ -16,7 +17,7 @@ public class FightButton : MonoBehaviour
         {
             if(isInteracting)
             {
-                Debug.Log("Killed");
+                audioManager.PlaySound("kick");
                 waveManager.currentWave.damage += 5 * scoreMultiplyer;
                 //Add animations
 
