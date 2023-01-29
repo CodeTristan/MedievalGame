@@ -7034,7 +7034,7 @@ MonoBehaviour:
   audioManager: {fileID: 108902613}
   scoreMultiplyer: 0
   isInteracting: 0
-  effect: {fileID: 0}
+  effect: {fileID: 96464344968543183, guid: cb210b2ed5d0a6244becf464619071c8, type: 3}
 --- !u!50 &1734995785
 Rigidbody2D:
   serializedVersion: 4
