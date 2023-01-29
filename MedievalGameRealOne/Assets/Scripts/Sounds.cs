@@ -49,14 +49,22 @@ public class Sounds : MonoBehaviour
     {
         for (int i = 0; i < sounds.Length; i++)
         {
-            if (p!=null)
+            if (sounds[i].name == "Music1")
             {
-                sounds[i].source.volume = sounds[i].volume * JsonUtility.FromJson<OptionsSave>(o.JSON).volume * p.musicmultiplier;
+                if (p != null)
+                {
+                    sounds[i].source.volume = sounds[i].volume * JsonUtility.FromJson<OptionsSave>(o.JSON).music * p.musicmultiplier;
+                }
+                else
+                {
+                    sounds[i].source.volume = sounds[i].volume * JsonUtility.FromJson<OptionsSave>(o.JSON).music;
+                }
             }
             else
             {
                 sounds[i].source.volume = sounds[i].volume * JsonUtility.FromJson<OptionsSave>(o.JSON).volume;
             }
+
         }
     }
 
