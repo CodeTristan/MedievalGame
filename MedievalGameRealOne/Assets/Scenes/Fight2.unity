@@ -611,6 +611,7 @@ GameObject:
   - component: {fileID: 530599612}
   - component: {fileID: 530599614}
   - component: {fileID: 530599613}
+  - component: {fileID: 530599615}
   m_Layer: 5
   m_Name: ComboText
   m_TagString: Untagged
@@ -633,11 +634,11 @@ RectTransform:
   m_Father: {fileID: 1206338108}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -797, y: 445.54}
-  m_SizeDelta: {x: 226.89, y: 60.93}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 0.5, y: 1}
+  m_AnchorMax: {x: 0.5, y: 1}
+  m_AnchoredPosition: {x: 2, y: -81}
+  m_SizeDelta: {x: 226.89, y: 60.929993}
+  m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &530599613
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -735,6 +736,26 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 530599611}
   m_CullTransparentMesh: 1
+--- !u!95 &530599615
+Animator:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 530599611}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 75789c36cbb2a9f42a3389f5246cdf6d, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorControllerStateOnDisable: 0
 --- !u!1 &587806058
 GameObject:
   m_ObjectHideFlags: 0
@@ -976,11 +997,11 @@ RectTransform:
   m_Father: {fileID: 1206338108}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 322.91998}
+  m_AnchorMin: {x: 0, y: 1}
+  m_AnchorMax: {x: 0, y: 1}
+  m_AnchoredPosition: {x: 75, y: -80.55502}
   m_SizeDelta: {x: 273.05, y: 273.05}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_Pivot: {x: 0, y: 1}
 --- !u!222 &642164568
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -1926,6 +1947,36 @@ MonoBehaviour:
     circles: []
   CanSpawnWave: 1
   combo: 0
+  comboColor:
+    serializedVersion: 2
+    key0: {r: 1, g: 0.8527656, b: 0, a: 1}
+    key1: {r: 0.9529412, g: 0.18674387, b: 0, a: 1}
+    key2: {r: 0.3962264, g: 0.011934528, b: 0, a: 0.08627451}
+    key3: {r: 0.7137255, g: 0.0627451, b: 0.5686275, a: 0.08627451}
+    key4: {r: 0.7137255, g: 0.0627451, b: 0.5686275, a: 0.08627451}
+    key5: {r: 0.7137255, g: 0.0627451, b: 0.5686275, a: 0.08627451}
+    key6: {r: 0.7137255, g: 0.0627451, b: 0.5686275, a: 0.08627451}
+    key7: {r: 0.7137255, g: 0.0627451, b: 0.5686275, a: 0.08627451}
+    ctime0: 0
+    ctime1: 32768
+    ctime2: 65535
+    ctime3: 0
+    ctime4: 0
+    ctime5: 0
+    ctime6: 0
+    ctime7: 0
+    atime0: 0
+    atime1: 65535
+    atime2: 0
+    atime3: 0
+    atime4: 0
+    atime5: 0
+    atime6: 0
+    atime7: 0
+    m_Mode: 0
+    m_NumColorKeys: 3
+    m_NumAlphaKeys: 2
+  comboAnimator: {fileID: 0}
 --- !u!1 &1206338104
 GameObject:
   m_ObjectHideFlags: 0
