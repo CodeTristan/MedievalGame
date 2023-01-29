@@ -6,6 +6,7 @@ public class fightWaveButton : MonoBehaviour
 {
     private Wave currentWave;
     [HideInInspector] public WaveManager waveManager;
+    public float effectWaitSeconds;
     public float speed;
     private Rigidbody2D rb;
     private Transform target;
@@ -37,4 +38,5 @@ public class fightWaveButton : MonoBehaviour
         waveManager.comboText.transform.localScale = new Vector2(0.7f,0.7f);
         Destroy(gameObject);
     }
+
 }

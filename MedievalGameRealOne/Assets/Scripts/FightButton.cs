@@ -8,6 +8,7 @@ public class FightButton : MonoBehaviour
     [SerializeField] private Sounds audioManager;
     [SerializeField] private float scoreMultiplyer;
     [SerializeField] private bool isInteracting;
+    [SerializeField] private GameObject effect;
 
     private GameObject currentCircle;
 
@@ -29,12 +30,15 @@ public class FightButton : MonoBehaviour
                     waveManager.comboText.transform.localScale = new Vector2(x + 0.04f, y + 0.04f);
                 }
                 waveManager.comboText.color = waveManager.comboColor.Evaluate(Mathf.Clamp01(waveManager.combo/50f));
+
+
                 audioManager.PlaySound("kick");
+
                 waveManager.currentWave.damage -= (1/(float)waveManager.currentWave.circles.Length) * scoreMultiplyer;
                 if (waveManager.currentWave.damage > 1f)
                     waveManager.currentWave.damage = 1;
-                //Add animations
 
+                Instantiate(effect, transform.position, Quaternion.identity);
                 Destroy(currentCircle.gameObject);
                 isInteracting = false;
             }
