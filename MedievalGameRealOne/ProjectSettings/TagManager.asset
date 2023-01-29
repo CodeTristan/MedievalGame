@@ -8,6 +8,7 @@ TagManager:
   - WaveButtonB
   - WaveButtonS
   - WaveButtonF
+  - CircleEffect
   layers:
   - Default
   - TransparentFX
