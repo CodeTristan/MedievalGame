@@ -1,0 +1,40 @@
+-Olga
+*Olga
+$BGCastleFront
+%Fight1
+Footprints end here...
+Someone took her to the castle.
+...
+Oh there she is!
+HEY! LET HER GO!
+<
+-Woman
+*doomgal
+NO! SHE IS MINE!
+<
+-Little Girl
+Olga! Help me!
+Stop it! It hurts!
+<
+-Olga
+*Olga
+Are you a knight?
+I didn't know there were female knights.
+But...
+/*Places arrow in her bow.
+Let her go. Now.
+<
+-Woman
+*doomgal
+Ahahahahahaha. Do you think you can hurt me with that?
+I am faster than you think.
+Maybe, I should teach you a lesson.
+Watch it kid. Watch what happens, if you disobey me.
+<
+-GUIDE
+In battle screen, listen the music and follow the rhythm.
+Press any of the "X", "Z" or "Space" buttons in the right time.
+Be alert because sometimes enemy attacks cause your eyes to shut. So there will be no light for a few seconds.
+Using "X" and "Z" simultaneously is recommended.
+<
+-END-

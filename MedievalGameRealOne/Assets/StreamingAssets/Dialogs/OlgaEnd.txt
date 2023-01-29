@@ -1,0 +1,62 @@
+-Olga
+*Olga
+#OlgaMusic
+$BGCastleFront
+%CharacterScene
+Are you alright? Did she hurt you?
+<
+-Little Girl
+No, I'm okay...
+But we must go! She said we must go before white haired guy comes.
+<
+-Olga
+*Olga
+White haired?
+Virgilius?
+Don't worry, he is in forest now.
+<
+-
+...
+...
+<
+-Man
+*Virgilius
+Well... well... well... 
+It isn't Olga. 
+What are you trying to do here?
+<
+-Olga
+*Olga
+Virgilius?
+But... How?
+You were in the forest.
+I saw you.
+<
+-Virgilius
+*Virgilius
+Forest?
+I was in the castle whole time? What are you talking about?
+You must be out of your mind!
+<
+-Olga
+*Olga
+Why are you worried so much?
+Whatever... I saw you in your armor. Whats going on?
+How fast are you?
+<
+-Virgilius
+*Virgilius
+In my armor?
+Oh...
+No...
+<
+-
+...
+Virgilius panicked and tried to runaway to castle.
+But a man stopped him.
+But something is missing.
+Maybe there are other paths to see to learn the TRUTH...
+The truth about the King and his brother Virgilius...
+The case remains unsolved.
+<
+-END-

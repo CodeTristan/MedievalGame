@@ -96,15 +96,12 @@ public class WaveManager : MonoBehaviour
             }
             else
             {
-                if(lightAnimator.GetBool("LightFake") == false)
-                {
-                    lightOn = true;
-                    lightSc.intensity = 1;
-                    lightAnimator.SetBool("LightOut", false);
-                    lightAnimator.SetBool("LightIn", true);
-                    currentDarknessTimer = currentWave.darkTimeTimer;
-                }
-                
+                lightOn = true;
+                lightSc.intensity = 1;
+                lightAnimator.SetBool("LightOut", false);
+                lightAnimator.SetBool("LightIn", true);
+                currentDarknessTimer = currentWave.darkTimeTimer;
+
             }
         }
     }
@@ -124,6 +121,8 @@ public class WaveManager : MonoBehaviour
         }
 
         yield return new WaitForSeconds(3);
+        currentDarknessTimer = 100000;
+        lightAnimator.SetBool("LightIn", true);
         dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
     }
 }

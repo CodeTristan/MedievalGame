@@ -56,6 +56,10 @@ MonoBehaviour:
   - {fileID: 21300000, guid: fbc45e5d60445bc4dae13f02cc99b36b, type: 3}
   - {fileID: 21300000, guid: c86fa584193b38e4eb2f3921ee18854d, type: 3}
   - {fileID: 21300000, guid: d860930c421c9a04aa504bda90e377e7, type: 3}
+  - {fileID: 21300000, guid: 1fcb481f8626d4443bad706eef405199, type: 3}
+  - {fileID: 21300000, guid: 5bd3df6dee8bc7e4985e0345b18e7ede, type: 3}
+  - {fileID: 21300000, guid: 4d6fbfb3eacf13148b38b082f26dfed6, type: 3}
+  - {fileID: 21300000, guid: 1f4e19aeb41279f489c6e3048fc78538, type: 3}
   AllDialogPaths:
   - StartDialog
   - KingForestFirstDialog
@@ -66,3 +70,4 @@ MonoBehaviour:
   - {fileID: 21300000, guid: 04762b6177fba9546bc826d4f8301d1c, type: 3}
   dialogs: []
   showFirstDialogDebug: 1
+  currentDialogPath: 

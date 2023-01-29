@@ -1,0 +1,19 @@
+-Virgilius
+*King
+#KingMainMusic
+$BGForest
+%CharacterScene
+Oof... That was a rough fight.
+I can only remember today. I guess, I was a killer back then.
+I should return to the castle. From now on, no more killing.
+If I can find the king, maybe we can end this war.
+Why on earth someone wants to fight?
+<
+-
+After that, the man has returned to the castle...
+But something wasn't right...
+Maybe there are other paths to see to learn the TRUTH...
+The truth about the King and his brother Virgilius...
+The case remains unsolved.
+<
+-END-

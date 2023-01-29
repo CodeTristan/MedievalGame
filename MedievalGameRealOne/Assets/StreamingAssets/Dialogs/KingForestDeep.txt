@@ -1,7 +1,7 @@
 -Virgilius
 *King
 $BGForest
-%Fight1
+%Fight2
 Where is she?
 ...
 Oh shit, there is some there.
@@ -71,6 +71,7 @@ You will pay for that!
 In battle screen, listen the music and follow the rhythm.
 Press any of the "X", "Z" or "Space" buttons in the right time.
 Be alert because sometimes enemy attacks cause your eyes to shut. So there will be no light for a few seconds.
-If you manage to get at least %60, you win the battle.
+If you manage to get at least %25, you win the battle.
+Using "X" and "Z" simultaneously is recommended.
 <
 -END-

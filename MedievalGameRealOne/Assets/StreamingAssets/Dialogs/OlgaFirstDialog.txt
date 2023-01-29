@@ -1,0 +1,192 @@
+-Voice
+#OlgaMusic
+$BGForest
+&OlgaSecondDialog
+Hey Olga! Wake up sleepy!
+Are you planning to sleep all day?
+<
+-Olga
+*Olga
+Is it noon already...
+I better get up.
+Good morning sunshine.
+<
+-Little Girl
+Hey, don't call me that! 
+<
+-Olga
+*Olga
+Alright, alright...
+(We are in a camp area in the outer regions of the forest.)
+(I've found this girl, which refuses to tell me her name in woods.)
+(In war times like this, you can find lots of orphans just like her.)
+(I couldn't let her live in the woods, so I'll take her to our home.)
+Hey are you hungry?
+<
+-Little Girl
+Yes...
+<
+-Olga
+*Olga
+Then we should hunt some animals. Do you know how to hunt?
+<
+-Little Girl
+No...
+<
+-Olga
+*Olga
+It's okay. You can learn.
+Now come with me.
+<
+-Olga
+*Olga
+#ForestWalkSound
+War huh?
+<
+-Little Girl
+...
+<
+-Olga
+*Olga
+I've lost my kids at war too...
+The knights, they are cruel...
+<
+-Little Girl
+NO! Mommy still lives!
+<
+-Olga
+*Olga
+Sure, of course she lives.
+But first, we will get you to a safe place. Okay?
+<
+-Little Girl
+Okay...
+<
+-Olga
+*Olga
+(Her parents were killed in front of her.)
+(Her mother's last wish was her child's safety. So I took her with me.)
+Look! There is a deer!
+Now be careful...
+<
+-Animal
+#BearSound
+ROOOOOOOOOOOARRRRRRRR
+<
+-Olga
+*Olga
+Oh shit a bear!
+<
+-Little Girl
+Noooo!
+<
+-Olga
+*Olga
+Run! Hide!
+<
+-
+...
+...
+<
+-Olga
+*Olga
+I've managed to escape from it. But where is she?
+HEEEYY! GIRL! WHERE ARE YOU!
+<
+-
+No Response...
+<
+-Olga
+*Olga
+Shit... I must find her.
+<
+-Voice
+GOD DAMMIT! WHAT IS GOING ON TODAY! ENOUGH ALREADY!
+<
+-Olga
+*Olga
+What was that? It was an adult man's voice.
+It could be someone dangerous, maybe he kidnapped her.
+I must check it out.
+<
+-Olga
+*Olga
+#ForestWalkSound
+(Is it... Yea it can't be wrong... It's him. Virgilius.)
+(The one who killed my kids and burned my hometown.)
+(I've been looking for him for years. Now I found you alone...)
+Who is there?
+<
+-Virgilius
+*King
+It's me. I'm here!
+Can you help me? I can't get up. This stupid armor is so heavy.
+<
+-Olga
+*Olga
+It's you...
+What are you doing in here? How dare you come back?
+<
+-Virgilius
+*King
+Yeeaa... It's me...
+Can you help me get up?
+<
+-Olga
+*Olga
+You want help? After all you've done!
+/*Places an arrow in her bow.*
+Finally I can kill you. After all these years I searched for you.
+<
+-Virgilius
+*King
+Hey hey hey. Put the bow down. What did I do to you.
+It is you guys who kidnapped our king right! 
+You should be ashamed, kidnapping is a dishonored action!
+<
+-Olga
+*Olga
+Kidnapping king?
+Why on earth would we do that! He is the one who wants to stop this idiotic war.
+With his help, we can finally rest peacefully in our home without any concern.
+<
+-Virgilius
+*King
+So you didn't kidnap our king. Then who did?
+<
+-Olga
+*Olga
+I have no idea, but you will pay for your sins.
+Burned our villages... Killed our family... even our children...
+<
+-Virgilius
+*King
+Holy shit... I did all of that? Damn... I'm sorry.
+<
+-Olga
+*Olga
+You are sorry?
+AHAHAHAHAHAHAHAHAHAHA
+Stop it!
+<
+-Knight
+HALT!
+Leave our commander!
+<
+-Olga
+*Olga
+Shit...
+I will see you again...
+<
+...
+...
+<
+-Olga
+*Olga
+I've managed to escaped but...
+Where is she?
+There are footprints, one big and one small one...
+She is indeed in a trouble.
+I must hurry.
+<
+-END-
