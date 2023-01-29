@@ -15,7 +15,7 @@ public class CharacterSelecter : MonoBehaviour
     {
         for (int i = 1; i <= 3; i++)
         {
-            if (PlayerPrefs.GetInt("End" + i) == 0)
+            if (PlayerPrefs.GetInt("END" + i) == 0)
                 return;
         }
 
