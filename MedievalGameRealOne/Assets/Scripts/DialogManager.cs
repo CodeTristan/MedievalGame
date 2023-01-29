@@ -29,13 +29,12 @@ public class DialogManager : MonoBehaviour
     private string sentence;
     [SerializeField] private bool showFirstDialogDebug;
     private Sprite FullSCreenImageToShow;
-    private string currentDialogPath;
+    [SerializeField] private string currentDialogPath;
     private string fightLevelName;
     private void Start()
     {
         dialogs = new List<Dialog>();
         sentences = new Queue<string>();
-        currentDialogPath = "StartDialog";
         if (showFirstDialogDebug)
             GetDialogs(FindPath(currentDialogPath));
     }
