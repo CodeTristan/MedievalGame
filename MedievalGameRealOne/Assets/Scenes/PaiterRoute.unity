@@ -1409,7 +1409,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: c86fa584193b38e4eb2f3921ee18854d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c7aaccb3c562f9449b1bbfabdd82c908, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2008,19 +2008,23 @@ PrefabInstance:
       objectReference: {fileID: 587806060}
     - target: {fileID: 381328234346953860, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
       propertyPath: currentDialogPath
-      value: OlgaFirstDialog
+      value: PaiterFirstDialog
       objectReference: {fileID: 0}
     - target: {fileID: 381328234346953860, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
       propertyPath: AllDialogPaths.Array.size
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 381328234346953860, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
       propertyPath: AllDialogPaths.Array.data[0]
-      value: OlgaFirstDialog
+      value: PaiterFirstDialog
       objectReference: {fileID: 0}
     - target: {fileID: 381328234346953860, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
       propertyPath: AllDialogPaths.Array.data[1]
-      value: OlgaSecondDialog
+      value: PaiterSecondDialog
+      objectReference: {fileID: 0}
+    - target: {fileID: 381328234346953860, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
+      propertyPath: AllDialogPaths.Array.data[2]
+      value: PaiterEnd
       objectReference: {fileID: 0}
     - target: {fileID: 381328234346953862, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
       propertyPath: m_Name

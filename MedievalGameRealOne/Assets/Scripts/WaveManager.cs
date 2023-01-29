@@ -66,12 +66,11 @@ public class WaveManager : MonoBehaviour
 
         if(combo > 5)
         {
-            comboText.gameObject.SetActive(true);
             comboText.text = combo.ToString();
         }
         else
         {
-            comboText.gameObject.SetActive(false);
+            comboText.text = "";
         }
         damageText.text = "%"+ (currentWave.damage * 100).ToString();
 

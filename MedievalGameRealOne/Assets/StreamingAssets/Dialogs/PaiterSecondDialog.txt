@@ -1,0 +1,47 @@
+-Paiter
+*Paiter
+#PaiterMusic
+$BGCastle
+&PaiterEnd
+Wow... That was epic.
+<
+-Virgilius
+*Virgilius
+You didn't even fight.
+Whatever...
+Lets do it
+<
+-
+Paiter and Virgilius entered to the kings chamber.
+Virgilius hit him with a mace while he was sleeping.
+<
+-Virgilius
+*Virgilius
+He is dead.
+<
+-Paiter
+*Paiter
+You sure he is dead right?
+<
+-Virgilius
+*Virgilius
+Of course I am sure. I am fucking Knight Virgilius.
+If I say he is dead. He is dead.
+<
+-Paiter
+*Paiter
+Alright, alright...
+We can't let them find his body.
+We must hide it.
+<
+-Virgilius
+*Virgilius
+Yeah... We should hide him somewhere.
+Somewhere they won't even consider looking.
+So that we can blame the kings death on forest people.
+-
+...
+...
+<
+-END-
+

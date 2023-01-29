@@ -1,0 +1,39 @@
+-
+...
+On another day
+...
+<
+-Paiter
+*Paiter
+$BGCastleFront
+%CharacterSelect
+What is it?
+Something changed in the future?
+What changed?
+Oh really... Thats bad.
+That is really bad.
+I must act quick.
+<
+-
+Paiter runs to outside of the castle.
+There he sees Virgilius, talking with a woman and a child.
+Virgilius tries to run away to the forest.
+But Paiter stops him.
+<
+-Paiter
+*Paiter
+It is the end of the way pal.
+I'm sorry but your future has changed.
+<
+-Virgilius
+*Virgilius
+What? What! 
+What are you talking about!
+<
+-
+Virgilius was in a shock. But something is missing.
+Maybe there are other paths to see to learn the TRUTH...
+The truth about the King and his brother Virgilius...
+The case remains unsolved.
+<
+-END-

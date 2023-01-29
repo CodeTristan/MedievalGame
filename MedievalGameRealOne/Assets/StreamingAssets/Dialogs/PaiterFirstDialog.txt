@@ -1,0 +1,171 @@
+-Paiter
+*Paiter
+#PaiterMusic
+$BGCastle
+%Fight3
+Ahh yes... Yes... I see it... Oooohhh I can see it...
+There is something big!
+Girl you are a lucky one. You will have a fortune that you can't even spend.
+<
+-Town Girl
+Oh really! Yes!!!
+Thank you sir Paiter.
+<
+-Paiter
+*Paiter
+Neeext!
+<
+-Mysterious Man
+Hello Peter.
+<
+-Paiter
+*Paiter
+It's actually Paiter.
+<
+-Mysterious Man
+We know why you are here.
+Do not try to do anything suspicious.
+We are watching you...
+<
+-Paiter
+*Paiter
+...
+What a weirdo...
+Anyways, next!
+<
+-
+... 5 Hours later ...
+<
+-Paiter
+*Paiter
+Phew... My shift is finally done.
+Actually I'm the fortune teller of the king.
+But he forced me to service to common people.
+What a fucking great king he is, right?
+NO! I hate him. He thinks he is rightful or just. 
+But he is nothing more than a moron.
+Anyways... Hey this is recording right?
+<
+-
+Paiter checks his wrist. There is something attached to it.
+Like a some sort of chip.
+<
+-Paiter
+*Paiter
+I want to be king...
+I have a plan for that though, but I need someone.
+It can't be done just by myself.
+I should head to Virgilius' room.
+<
+-
+#DoorKnockSound
+/*Knock knock*
+<
+-Voice
+Come in.
+<
+-Paiter
+*Paiter
+Hey Virgilius, do you remember our plan?
+<
+-Virgilius
+*Virgilius
+Of course I do... If you mock about my memory again! That will be your last mockery!
+When are we going to execute it. Thats what I want to learn.
+You keep avoiding me, while this king is making peace deals.
+Soon there won't be any wars. Which is bad for us right?
+Right?
+<
+-Paiter
+*Paiter
+Ah... Yes. Of course... We want war...
+First of all that night is tonight. 
+We can't wait any longer. I can't stand beign a fortune teller.
+<
+-Virgilius
+*Virgilius
+What?
+<
+-Paiter
+*Paiter
+I mean, I can't stand this king anymore.
+<
+-Virgilius
+*Virgilius
+Me too... Even though he is my brother, he is a moron.
+I want to hear screams again.
+Screams of my enemies.
+<
+-Paiter
+*Paiter
+(Jeez... Okay you are a bad guy. We get it.)
+Are you ready?
+<
+-Virgilius
+*Virgilius
+We should wait until everyone sleeps.
+But there is always a guardian in front of his chambers.
+You know him, Chadus.
+We can kill him for sure, but It won't be an easy battle.
+Plus we have to be silent.
+<
+-Paiter
+*Paiter
+Okay lets wait...
+<
+-
+... After some time...
+<
+-Paiter
+*Paiter
+Shall we?
+<
+-Virgilius
+*Virgilius
+Lets go.
+<
+-
+They walked to the chamber of the king.
+There was a guardian waiting in front of the door.
+<
+-Chadus
+*Chad
+Back.
+<
+-Paiter
+*Paiter
+Hey... We don't want any trouble okay.
+<
+-Chadus
+*Chad
+Ok. And?
+<
+-Paiter
+*Paiter
+King summoned us. We must see him right now.
+<
+-Chadus
+*Chad
+No.
+He sleep
+No.
+<
+-Virgilius
+*Virgilius
+Damn it. We can't wait any longer.
+<
+-Chadus
+*Chad
+Back.
+Or I attack.
+<
+-Virgilius
+*Virgilius
+Lets do it then big guy.
+-GUIDE
+In battle screen, listen the music and follow the rhythm.
+Press any of the "X", "Z" or "Space" buttons in the right time.
+Be alert because sometimes enemy attacks cause your eyes to shut. So there will be no light for a few seconds.
+Using "X" and "Z" simultaneously is recommended.
+<
+-END-
