@@ -38,7 +38,7 @@ public class FightButton : MonoBehaviour
                 if (waveManager.currentWave.damage > 1f)
                     waveManager.currentWave.damage = 1;
 
-                Instantiate(effect, currentCircle.transform.position, Quaternion.identity);
+                Instantiate(effect, transform.position, Quaternion.identity);
                 Destroy(currentCircle.gameObject);
                 isInteracting = false;
             }
