@@ -11,6 +11,9 @@ public class FightButton : MonoBehaviour
 
     private GameObject currentCircle;
 
+    float x;
+    float y;
+
     private void Update()
     {
         if(Input.GetKeyDown(KeyCode.Z) || Input.GetKeyDown(KeyCode.X) || Input.GetKeyDown(KeyCode.Space))
@@ -18,6 +21,14 @@ public class FightButton : MonoBehaviour
             if(isInteracting)
             {
                 waveManager.combo++;
+                waveManager.comboAnimator.Play("Combo1");
+                if (x<3)
+                {
+                    x = waveManager.comboText.transform.localScale.x;
+                    y = waveManager.comboText.transform.localScale.y;
+                    waveManager.comboText.transform.localScale = new Vector2(x + 0.04f, y + 0.04f);
+                }
+                waveManager.comboText.color = waveManager.comboColor.Evaluate(Mathf.Clamp01(waveManager.combo/50f));
                 audioManager.PlaySound("kick");
                 waveManager.currentWave.damage -= (1/(float)waveManager.currentWave.circles.Length) * scoreMultiplyer;
                 if (waveManager.currentWave.damage > 1f)

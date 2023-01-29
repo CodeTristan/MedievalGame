@@ -34,8 +34,11 @@ public class Options : MonoBehaviour
         json = sr.ReadToEnd();
         sr.Close();
         OptionsSave saved = JsonUtility.FromJson<OptionsSave>(json);
-        soundbar.value = saved.volume;
-        musicbar.value = saved.music;
+        if (soundbar!=null)
+        {
+            soundbar.value = saved.volume;
+            musicbar.value = saved.music;
+        }     
         JSON = json;
         s.SetVolume();
 

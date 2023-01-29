@@ -20,15 +20,17 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private GameObject LightGameObject;
     public Transform spawnPoint;
     public TextMeshProUGUI damageText;
-    [SerializeField] TextMeshProUGUI comboText;
+    public TextMeshProUGUI comboText;
     public Wave[] waves;
     public Wave currentWave;
     public bool CanSpawnWave;
     public int combo;
+    public Gradient comboColor;
 
     private float currentDarknessTimer;
     private Light2D lightSc;
     private Animator lightAnimator;
+    [HideInInspector] public Animator comboAnimator;
     private bool lightOn = true;
     private DialogManager dialogManager;
     private int currentCircleCount;
@@ -36,6 +38,7 @@ public class WaveManager : MonoBehaviour
     {
         dialogManager = FindObjectOfType<DialogManager>();
         lightSc = LightGameObject.GetComponent<Light2D>();
+        comboAnimator = comboText.gameObject.GetComponent<Animator>();
         lightAnimator = LightGameObject.GetComponent<Animator>();
         currentWave = waves[0];
         currentDarknessTimer = currentWave.darkTimeTimer;

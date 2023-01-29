@@ -34,6 +34,7 @@ public class fightWaveButton : MonoBehaviour
     {
         currentWave.damage -= (1 / (float)currentWave.circles.Length);
         waveManager.combo = 0;
+        waveManager.comboText.transform.localScale = new Vector2(0.7f,0.7f);
         Destroy(gameObject);
     }
 }
