@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
@@ -18,6 +19,13 @@ public class Pause : MonoBehaviour
                 pausescreen.SetActive(true);
                 musicmultiplier = 0.2f;
                 options.s.SetVolume();
+                for (int i = 0; i < options.s.sounds.Length; i++)
+                {
+                    if (options.s.sounds[i].name == "Music1")
+                    {
+                        options.s.sounds[i].source.Pause();
+                    }
+                }
             }
             else
             {
@@ -32,6 +40,13 @@ public class Pause : MonoBehaviour
         options.s.SetVolume();
         Time.timeScale = 1;
         pausescreen.SetActive(false);
+        for (int i = 0; i < options.s.sounds.Length; i++)
+        {
+            if (options.s.sounds[i].name == "Music1")
+            {
+                options.s.sounds[i].source.Play();
+            }
+        }
     }
     public void OptionsMenu()
     {
