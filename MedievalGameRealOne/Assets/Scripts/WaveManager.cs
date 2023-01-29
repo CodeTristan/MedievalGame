@@ -71,30 +71,40 @@ public class WaveManager : MonoBehaviour
         {
             if(lightOn == false && currentWave.darknessFakeCount > 0)
             {
-                currentWave.darknessFakeCount--;
-                lightAnimator.SetTrigger("LightFake");
+                lightAnimator.SetBool("LightIn", false);
+                lightAnimator.SetBool("LightFake",true);
+                currentDarknessTimer = currentWave.darkTimeTimer + 5;
                 ch.StopAllCoroutines();
                 ch.ChangeColorStart(5, fade, lightout, null, true);
-                //lightAnimator.ResetTrigger("LightFake");
-                currentDarknessTimer = currentWave.darkTimeTimer + 5;
+                if (currentWave.darknessFakeCount < 1)
+                    lightAnimator.SetBool("LightFake", false);
+                lightAnimator.Play("LightFake");
+
+                lightAnimator.SetBool("LightIn", true);
+                lightAnimator.SetBool("LightFake", false);
+                currentWave.darknessFakeCount--;
             }
             if (lightOn == true)  //Means: light is on, turn it off
             {
                 lightOn = false;
                 lightSc.intensity = 0;
-                lightAnimator.SetTrigger("LightOut");
+                lightAnimator.SetBool("LightIn", false);
+                lightAnimator.SetBool("LightOut", true);
                 ch.StopAllCoroutines();
                 ch.ChangeColorStart(2, fade, lightout, null, false);
-                //  lightAnimator.ResetTrigger("LightOff");
                 currentDarknessTimer = currentWave.darknessTime;
             }
             else
             {
-                lightOn = true;
-                lightSc.intensity = 1;
-                lightAnimator.SetTrigger("LightIn");
-                //   lightAnimator.ResetTrigger("LightIn");
-                currentDarknessTimer = currentWave.darkTimeTimer;
+                if(lightAnimator.GetBool("LightFake") == false)
+                {
+                    lightOn = true;
+                    lightSc.intensity = 1;
+                    lightAnimator.SetBool("LightOut", false);
+                    lightAnimator.SetBool("LightIn", true);
+                    currentDarknessTimer = currentWave.darkTimeTimer;
+                }
+                
             }
         }
     }
