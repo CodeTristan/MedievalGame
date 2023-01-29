@@ -132,9 +132,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 209813}
-  - component: {fileID: 209818}
   - component: {fileID: 209817}
-  - component: {fileID: 209819}
   - component: {fileID: 209820}
   m_Layer: 0
   m_Name: Scripts
@@ -180,44 +178,11 @@ MonoBehaviour:
     pitch: 1
     loop: 0
     source: {fileID: 0}
-  o: {fileID: 209818}
+  o: {fileID: 0}
   p: {fileID: 0}
   audiosources:
   - {fileID: 0}
   - {fileID: 0}
-  musicmultiplier: 0
---- !u!114 &209818
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: eb74fdcc1f9507145866d7a67de48743, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  soundbar: {fileID: 8743738663354817074}
-  musicbar: {fileID: 8743738663159880691}
-  JSON: 
-  s: {fileID: 209817}
---- !u!114 &209819
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 209811}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 36433e51aed31ec4a9fdbd3c91f33fd9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  options: {fileID: 209818}
-  optionsmenu: {fileID: 8743738663172098478}
-  pausescreen: {fileID: 8743738662166849912}
-  pausemenu: {fileID: 8743738662942646171}
   musicmultiplier: 0
 --- !u!114 &209820
 MonoBehaviour:

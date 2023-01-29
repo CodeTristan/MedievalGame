@@ -2533,7 +2533,7 @@ MonoBehaviour:
   DialogName: OlgaEnd
   firstCircleDelay: 0
   darknessSpawnCircleCount: 4
-  prefab: {fileID: 0}
+  prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
   ch: {fileID: 1593688602}
   fade:
     serializedVersion: 2
