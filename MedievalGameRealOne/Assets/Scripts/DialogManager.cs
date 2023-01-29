@@ -31,6 +31,7 @@ public class DialogManager : MonoBehaviour
     private Sprite FullSCreenImageToShow;
     [SerializeField] private string currentDialogPath;
     private string fightLevelName;
+    private string booleanName;
     private void Start()
     {
         dialogs = new List<Dialog>();
@@ -134,6 +135,10 @@ public class DialogManager : MonoBehaviour
 
     public void EndDialog()
     {
+        if(booleanName != null)
+        {
+            PlayerPrefs.SetInt(booleanName, 1);
+        }
         if(fightLevelName != null && fightLevelName != "")
         {
             SceneManager.LoadScene(fightLevelName);
@@ -170,6 +175,7 @@ public class DialogManager : MonoBehaviour
         FullSCreenImageToShow = null;
         fightLevelName = null;
         currentDialogPath = null;
+        booleanName = null;
 
         while (reader.EndOfStream == false)
         {
@@ -184,6 +190,7 @@ public class DialogManager : MonoBehaviour
             // # means sound effect to play
             // $ means full screen picture to show
             // & means next dialog to display
+            // ! means playersPref ending boolean name
             if (reader.Peek() == '-') 
             {
                 if (tempDialog.sentences.Count > 0)
@@ -245,6 +252,13 @@ public class DialogManager : MonoBehaviour
                 {
                     reader.Read();  //Skips '%' char
                     fightLevelName = reader.ReadLine();
+                }
+
+                // '!' is for PlayersPref ending boolean name
+                if (reader.Peek() == '!')
+                {
+                    reader.Read();  //Skips '%' char
+                    booleanName = reader.ReadLine();
                 }
 
 
