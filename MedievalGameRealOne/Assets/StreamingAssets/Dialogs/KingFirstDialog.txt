@@ -1,5 +1,6 @@
 -Man
 #KingMainMusic
+$BGCastle
 &KingCastleFrontFirstDialog
 Aghh... My head... Oh god I am thirsty.
 Where am I?

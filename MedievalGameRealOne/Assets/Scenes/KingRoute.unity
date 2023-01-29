@@ -5230,7 +5230,7 @@ PrefabInstance:
       objectReference: {fileID: 353702842}
     - target: {fileID: 381328234346953860, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
       propertyPath: currentDialogPath
-      value: StartDialog
+      value: KingFirstDialog
       objectReference: {fileID: 0}
     - target: {fileID: 381328234346953862, guid: 13523646537ca724dbb251c0cdb97e41, type: 3}
       propertyPath: m_Name
