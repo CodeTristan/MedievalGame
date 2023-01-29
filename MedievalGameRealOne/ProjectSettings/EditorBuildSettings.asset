@@ -9,9 +9,33 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: b8a921d5837207849a4665cb9a242d23
   - enabled: 1
+    path: Assets/Scenes/CharacterSelect.unity
+    guid: bba9bd1d5698fcf40b89adcab132e6de
+  - enabled: 1
+    path: Assets/Scenes/OlgaRoute.unity
+    guid: f0fe5729063f8bb4e9eb05f9f5ebdc32
+  - enabled: 1
     path: Assets/Scenes/KingRoute.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/PaiterRoute 1.unity
+    guid: 9a516ef496c7a294e817ad51265cb546
+  - enabled: 1
+    path: Assets/Scenes/VirgiliusRoute.unity
+    guid: 62baa4ad4466865438bf81a202b89d70
+  - enabled: 1
     path: Assets/Scenes/Fight1.unity
     guid: f0244c4705d3e2e449f2c3a950f8208e
+  - enabled: 1
+    path: Assets/Scenes/Fight2.unity
+    guid: f4f801e5b48590c4393f8ec086bc9cb9
+  - enabled: 1
+    path: Assets/Scenes/Fight3.unity
+    guid: 87bc8f81cb69ca14299aa94af5168766
+  - enabled: 1
+    path: Assets/Scenes/Fight4.unity
+    guid: ab3b2d6a39b61b34095f7ad27e40e125
+  - enabled: 1
+    path: Assets/Scenes/Fight5.unity
+    guid: 1f2dc150f8ef4a8429bd91df9abb215c
   m_configObjects: {}

@@ -67,7 +67,10 @@ MonoBehaviour:
   - KingFirstDialog
   - KingCastleFrontFirstDialog
   AllFullScreenImages:
-  - {fileID: 21300000, guid: 04762b6177fba9546bc826d4f8301d1c, type: 3}
+  - {fileID: 21300000, guid: 09e76e83c59084245be5e280e288f1f8, type: 3}
+  - {fileID: 21300000, guid: 303ae38876e248f4ebc1fb0500ab4ca0, type: 3}
+  - {fileID: 21300000, guid: 49ad28ec2278cc24aa3aea159fe633e1, type: 3}
+  - {fileID: 21300000, guid: eaee7e0752dd9bf4c84068461cca64a3, type: 3}
   dialogs: []
   showFirstDialogDebug: 1
   currentDialogPath: 
