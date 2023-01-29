@@ -2,7 +2,8 @@
 *King
 #KingMainMusic
 $BGForest
-%CharacterScene
+%CharacterSelect
+!END2
 Oof... That was a rough fight.
 I can only remember today. I guess, I was a killer back then.
 I should return to the castle. From now on, no more killing.

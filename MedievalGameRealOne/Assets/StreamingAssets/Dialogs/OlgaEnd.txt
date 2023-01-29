@@ -2,7 +2,8 @@
 *Olga
 #OlgaMusic
 $BGCastleFront
-%CharacterScene
+%CharacterSelect
+!END1
 Are you alright? Did she hurt you?
 <
 -Little Girl

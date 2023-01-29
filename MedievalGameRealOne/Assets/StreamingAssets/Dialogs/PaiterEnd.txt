@@ -1,4 +1,6 @@
 -
+%CharacterSelect
+!END3
 ...
 On another day
 ...

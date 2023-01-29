@@ -1,5 +1,6 @@
 -Virgilius
 *Virgilius
+%MainMenu
 /*Blurp*  *Spits blood*
 I guess this is it...
 You win brother.

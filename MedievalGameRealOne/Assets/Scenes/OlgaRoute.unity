@@ -543,7 +543,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 95d4a47fc33a23643971a3ec1125e504, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sounds: []
+  sounds:
+  - clip:
+    - {fileID: 8300000, guid: 2c0e2df6fd236c94da02c8ef53460587, type: 3}
+    name: OlgaMusic
+    volume: 0.568
+    pitch: 1
+    loop: 1
+    source: {fileID: 0}
   o: {fileID: 0}
   p: {fileID: 0}
   audiosources: []
