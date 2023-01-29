@@ -17,6 +17,7 @@ public class FightButton : MonoBehaviour
         {
             if(isInteracting)
             {
+                waveManager.combo++;
                 audioManager.PlaySound("kick");
                 waveManager.currentWave.damage -= (1/(float)waveManager.currentWave.circles.Length) * scoreMultiplyer;
                 if (waveManager.currentWave.damage > 1f)

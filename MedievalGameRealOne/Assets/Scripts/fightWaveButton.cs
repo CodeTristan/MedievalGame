@@ -4,7 +4,8 @@ using UnityEngine;
 
 public class fightWaveButton : MonoBehaviour
 {
-    [HideInInspector] public Wave currentWave;
+    private Wave currentWave;
+    [HideInInspector] public WaveManager waveManager;
     public float speed;
     private Rigidbody2D rb;
     private Transform target;
@@ -16,6 +17,7 @@ public class fightWaveButton : MonoBehaviour
         rb = gameObject.GetComponent<Rigidbody2D>();
         target = GameObject.FindGameObjectWithTag("Player").GetComponent<Transform>();
         aim = target.position - transform.position;
+        currentWave = waveManager.currentWave;
     }
 
     void Update()
@@ -31,6 +33,7 @@ public class fightWaveButton : MonoBehaviour
     private void kill()
     {
         currentWave.damage -= (1 / (float)currentWave.circles.Length);
+        waveManager.combo = 0;
         Destroy(gameObject);
     }
 }

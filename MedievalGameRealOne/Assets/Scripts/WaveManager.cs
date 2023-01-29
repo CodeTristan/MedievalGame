@@ -11,6 +11,7 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private string DialogName;
     [SerializeField] private float firstCircleDelay;
     [SerializeField] private int darknessSpawnCircleCount;
+    
     public GameObject prefab;
     public ColorChange ch;
     public Gradient fade;
@@ -19,9 +20,11 @@ public class WaveManager : MonoBehaviour
     [SerializeField] private GameObject LightGameObject;
     public Transform spawnPoint;
     public TextMeshProUGUI damageText;
+    [SerializeField] TextMeshProUGUI comboText;
     public Wave[] waves;
     public Wave currentWave;
     public bool CanSpawnWave;
+    public int combo;
 
     private float currentDarknessTimer;
     private Light2D lightSc;
@@ -58,7 +61,15 @@ public class WaveManager : MonoBehaviour
             elapsedtime = 0;
         }
 
-
+        if(combo > 5)
+        {
+            comboText.gameObject.SetActive(true);
+            comboText.text = combo.ToString();
+        }
+        else
+        {
+            comboText.gameObject.SetActive(false);
+        }
         damageText.text = "%"+ (currentWave.damage * 100).ToString();
 
         currentDarknessTimer -= Time.deltaTime;
@@ -115,7 +126,7 @@ public class WaveManager : MonoBehaviour
         currentDarknessTimer = wave.darkTimeTimer;
         for (int i = 0; i < wave.circles.Length; i++)
         {
-            Instantiate(wave.circles[i].prefab, spawnPoint.position, Quaternion.identity).gameObject.GetComponent<fightWaveButton>().currentWave = this.currentWave;
+            Instantiate(wave.circles[i].prefab, spawnPoint.position, Quaternion.identity).gameObject.GetComponent<fightWaveButton>().waveManager = this;
             currentCircleCount = GameObject.FindGameObjectsWithTag("WaveButtonD").Length;
             yield return new WaitForSeconds(wave.circles[i].nextCircleSpawnDelay);
         }
