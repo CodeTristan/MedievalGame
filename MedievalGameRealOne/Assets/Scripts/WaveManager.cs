@@ -80,6 +80,12 @@ public class WaveManager : MonoBehaviour
 
         if(CanSpawnWave)
         {
+            if (index >= currentWave.circles.Length && waveTimer >= currentWave.SpawnTime[currentWave.SpawnTime.Count - 1] + 3)
+            {
+                currentDarknessTimer = 100000;
+                lightAnimator.SetBool("LightIn", true);
+                dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
+            }
             if (waveTimer >= currentWave.SpawnTime[index] && index < currentWave.circles.Length)
             {
                 spawnCircle(currentWave.circles[index]);
