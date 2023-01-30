@@ -52,7 +52,6 @@ public class WaveManager : MonoBehaviour
 
         //if (CanSpawnWave)
         //    StartCoroutine(SpawnWave(currentWave));
-        soundManager.PlaySound(currentWave.musicName);
     }
 
     int clicknumber = 0;
@@ -60,12 +59,16 @@ public class WaveManager : MonoBehaviour
     float waveTimer = 0;
     int index = 0;
     bool inDialog = false;
+    bool start;
+    bool musicstart;
+   // public TextMeshProUGUI wavetext;
 
     private void Update()
     {
         
         elapsedtime += Time.deltaTime;
         waveTimer += Time.deltaTime;
+       // wavetext.SetText(waveTimer.ToString());
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log(clicknumber+" "+elapsedtime);
@@ -79,7 +82,14 @@ public class WaveManager : MonoBehaviour
             clicknumber++;
         }
 
-        if(CanSpawnWave)
+        if (start && !musicstart)
+        {
+            soundManager.PlaySound(currentWave.musicName);
+            waveTimer = 0;
+            musicstart = true;
+        }
+
+        if (CanSpawnWave&&start)
         {
             if (index >= currentWave.circles.Length && waveTimer >= currentWave.SpawnTime[currentWave.SpawnTime.Count - 1] + 3 && !inDialog)
             {
@@ -88,7 +98,7 @@ public class WaveManager : MonoBehaviour
                 inDialog = true;
                 dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
             }
-            if (waveTimer >= currentWave.SpawnTime[index] && index < currentWave.circles.Length)
+            if (waveTimer >= currentWave.SpawnTime[index]/*+0.4*/ && index < currentWave.circles.Length)
             {
                 spawnCircle(currentWave.circles[index]);
                 index++;
@@ -130,6 +140,7 @@ public class WaveManager : MonoBehaviour
 
             }
         }
+        start = true;
     }
 
     private void OpenLight()
