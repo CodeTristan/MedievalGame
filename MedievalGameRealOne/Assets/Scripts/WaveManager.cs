@@ -47,10 +47,12 @@ public class WaveManager : MonoBehaviour
             StartCoroutine(SpawnWave(currentWave));
     }
 
+
     int clicknumber = -1;
     float elapsedtime;
     private void Update()
     {
+        
         elapsedtime += Time.deltaTime;
         if (Input.GetMouseButtonDown(0))
         {
@@ -121,6 +123,7 @@ public class WaveManager : MonoBehaviour
     public IEnumerator SpawnWave(Wave wave)
     {
         //Add Music
+        yield return new WaitForSeconds(1);
         soundManager.PlaySound(wave.musicName);
 
         yield return new WaitForSeconds(firstCircleDelay);

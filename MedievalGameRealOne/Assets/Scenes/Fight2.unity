@@ -3224,7 +3224,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   DialogName: KingEnd
-  firstCircleDelay: 1.1
+  firstCircleDelay: 1.81
   darknessSpawnCircleCount: 6
   prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
   ch: {fileID: 1593688602}
