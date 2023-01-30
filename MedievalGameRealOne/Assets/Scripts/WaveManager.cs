@@ -68,8 +68,8 @@ public class WaveManager : MonoBehaviour
             Debug.Log(clicknumber+" "+elapsedtime);
             if (clicknumber >= 0)
             {
-                waves[0].circles[clicknumber].nextCircleSpawnDelay = elapsedtime;
-                waves[0].circles[clicknumber].prefab = prefab;
+                currentWave.SpawnTime.Add(elapsedtime);
+                currentWave.circles[clicknumber].prefab = prefab;
             }
             clicknumber++;
             elapsedtime = 0;
