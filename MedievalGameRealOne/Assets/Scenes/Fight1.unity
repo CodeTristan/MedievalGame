@@ -2577,6 +2577,33 @@ MonoBehaviour:
     darknessTime: 0.5
     darknessFakeCount: 1
     musicName: Music1
+    SpawnTime:
+    - 0.8890139
+    - 1.7900988
+    - 2.6897993
+    - 3.5681577
+    - 4.4574876
+    - 5.039625
+    - 5.321472
+    - 6.0879354
+    - 6.982165
+    - 7.8654466
+    - 8.72515
+    - 9.600316
+    - 10.455613
+    - 11.268754
+    - 11.713774
+    - 11.885858
+    - 12.0687895
+    - 12.242281
+    - 12.367919
+    - 13.013876
+    - 13.887332
+    - 14.805153
+    - 15.661629
+    - 16.511751
+    - 17.405891
+    - 18.21209
     circles:
     - nextCircleSpawnDelay: 0.9
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
@@ -2883,6 +2910,7 @@ MonoBehaviour:
     darknessTime: 0
     darknessFakeCount: 0
     musicName: 
+    SpawnTime: []
     circles: []
   CanSpawnWave: 1
   combo: 0
