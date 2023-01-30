@@ -53,12 +53,7 @@ public class WaveManager : MonoBehaviour
             StartCoroutine(SpawnWave(currentWave));
     }
 
-<<<<<<< Updated upstream
-
-    int clicknumber = -1;
-=======
     int clicknumber = -3;
->>>>>>> Stashed changes
     float elapsedtime;
     float waveTimer = 0;
     int index = 0;
