@@ -59,6 +59,7 @@ public class WaveManager : MonoBehaviour
     float elapsedtime;
     float waveTimer = 0;
     int index = 0;
+    bool inDialog = false;
 
     private void Update()
     {
@@ -80,10 +81,11 @@ public class WaveManager : MonoBehaviour
 
         if(CanSpawnWave)
         {
-            if (index >= currentWave.circles.Length && waveTimer >= currentWave.SpawnTime[currentWave.SpawnTime.Count - 1] + 3)
+            if (index >= currentWave.circles.Length && waveTimer >= currentWave.SpawnTime[currentWave.SpawnTime.Count - 1] + 3 && !inDialog)
             {
                 currentDarknessTimer = 100000;
                 lightAnimator.SetBool("LightIn", true);
+                inDialog = true;
                 dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
             }
             if (waveTimer >= currentWave.SpawnTime[index] && index < currentWave.circles.Length)
