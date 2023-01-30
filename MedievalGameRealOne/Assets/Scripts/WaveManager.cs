@@ -49,8 +49,10 @@ public class WaveManager : MonoBehaviour
         float posClicker = Mathf.Sqrt(Mathf.Pow(player.position.x, 2) + Mathf.Pow(player.position.y, 2));
         TimeBetweenSpawnPointAndClicker = Mathf.Abs(posSP - posClicker) / prefab.gameObject.GetComponent<fightWaveButton>().speed;
         Debug.Log(TimeBetweenSpawnPointAndClicker);
-        if (CanSpawnWave)
-            StartCoroutine(SpawnWave(currentWave));
+
+        //if (CanSpawnWave)
+        //    StartCoroutine(SpawnWave(currentWave));
+        soundManager.PlaySound(currentWave.musicName);
     }
 
     int clicknumber = -3;
@@ -68,18 +70,22 @@ public class WaveManager : MonoBehaviour
             Debug.Log(clicknumber+" "+elapsedtime);
             if (clicknumber >= 0)
             {
-                currentWave.SpawnTime.Add(elapsedtime);
+                currentWave.SpawnTime.Add(elapsedtime + 1.68f);
                 currentWave.circles[clicknumber].prefab = prefab;
             }
             clicknumber++;
             elapsedtime = 0;
         }
 
-        if(waveTimer >= currentWave.SpawnTime[index] && index < currentWave.circles.Length)
+        if(CanSpawnWave)
         {
-            spawnCircle(currentWave.circles[index]);
-            index++;
+            if (waveTimer >= currentWave.SpawnTime[index] && index < currentWave.circles.Length)
+            {
+                spawnCircle(currentWave.circles[index]);
+                index++;
+            }
         }
+        
 
         //Combo text adjustment
         if(combo > 5)
@@ -160,7 +166,7 @@ public class WaveManager : MonoBehaviour
     {
         //Add Music
         yield return new WaitForSeconds(1);
-        soundManager.PlaySound(wave.musicName);
+        
 
         yield return new WaitForSeconds(firstCircleDelay);
         currentDarknessTimer = wave.darkTimeTimer;

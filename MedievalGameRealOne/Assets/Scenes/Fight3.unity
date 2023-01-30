@@ -4683,7 +4683,7 @@ MonoBehaviour:
     musicName: 
     SpawnTime: []
     circles: []
-  CanSpawnWave: 1
+  CanSpawnWave: 0
   combo: 0
   comboColor:
     serializedVersion: 2
