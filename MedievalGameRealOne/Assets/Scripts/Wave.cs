@@ -11,8 +11,13 @@ public class Wave
     public float darknessTime;
     public int darknessFakeCount;
     public string musicName;
+    public List<float> SpawnTime;
     public Circle[] circles;
 
+    public Wave()
+    {
+        SpawnTime = new List<float>();
+    }
 }
 
 [System.Serializable]

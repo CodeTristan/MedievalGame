@@ -34,6 +34,7 @@ public class WaveManager : MonoBehaviour
     private bool lightOn = true;
     private DialogManager dialogManager;
     private int currentCircleCount;
+    private float TimeBetweenSpawnPointAndClicker;
     private void Start()
     {
         dialogManager = FindObjectOfType<DialogManager>();
@@ -43,21 +44,34 @@ public class WaveManager : MonoBehaviour
         currentWave = waves[0];
         currentDarknessTimer = currentWave.darkTimeTimer;
         currentWave.damage = 1;
+        float posSP = Mathf.Sqrt(Mathf.Pow(spawnPoint.position.x, 2) + Mathf.Pow(spawnPoint.position.y, 2));
+        Transform player = GameObject.FindGameObjectWithTag("Player").transform;
+        float posClicker = Mathf.Sqrt(Mathf.Pow(player.position.x, 2) + Mathf.Pow(player.position.y, 2));
+        TimeBetweenSpawnPointAndClicker = Mathf.Abs(posSP - posClicker) / prefab.gameObject.GetComponent<fightWaveButton>().speed;
+        Debug.Log(TimeBetweenSpawnPointAndClicker);
         if (CanSpawnWave)
             StartCoroutine(SpawnWave(currentWave));
     }
 
+<<<<<<< Updated upstream
 
     int clicknumber = -1;
+=======
+    int clicknumber = -3;
+>>>>>>> Stashed changes
     float elapsedtime;
+    float waveTimer = 0;
+    int index = 0;
+
     private void Update()
     {
         
         elapsedtime += Time.deltaTime;
+        waveTimer += Time.deltaTime;
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log(clicknumber+" "+elapsedtime);
-            if (clicknumber!=-1)
+            if (clicknumber >= 0)
             {
                 waves[0].circles[clicknumber].nextCircleSpawnDelay = elapsedtime;
                 waves[0].circles[clicknumber].prefab = prefab;
@@ -66,6 +80,13 @@ public class WaveManager : MonoBehaviour
             elapsedtime = 0;
         }
 
+        if(waveTimer >= currentWave.SpawnTime[index] && index < currentWave.circles.Length)
+        {
+            spawnCircle(currentWave.circles[index]);
+            index++;
+        }
+
+        //Combo text adjustment
         if(combo > 5)
         {
             comboText.text = combo.ToString();
@@ -76,6 +97,7 @@ public class WaveManager : MonoBehaviour
         }
         damageText.text = "%"+ (currentWave.damage * 100).ToString();
 
+        //DARKNESS LIGHT ON-OFF
         currentDarknessTimer -= Time.deltaTime;
         if (currentDarknessTimer < 1 && lightout.color.a == 0)
         {
@@ -86,39 +108,58 @@ public class WaveManager : MonoBehaviour
         {
             if(lightOn == false && currentWave.darknessFakeCount > 0)
             {
-                lightAnimator.SetBool("LightIn", false);
-                lightAnimator.SetBool("LightFake",true);
-                currentDarknessTimer = currentWave.darkTimeTimer + 5;
-                ch.StopAllCoroutines();
-                ch.ChangeColorStart(5, fade, lightout, null, true);
-                if (currentWave.darknessFakeCount < 1)
-                    lightAnimator.SetBool("LightFake", false);
-                lightAnimator.Play("LightFake");
-
-                lightAnimator.SetBool("LightIn", true);
-                lightAnimator.SetBool("LightFake", false);
-                currentWave.darknessFakeCount--;
+                LightFake();
             }
             if (lightOn == true)  //Means: light is on, turn it off
             {
-                lightOn = false;
-                lightSc.intensity = 0;
-                lightAnimator.SetBool("LightIn", false);
-                lightAnimator.SetBool("LightOut", true);
-                ch.StopAllCoroutines();
-                ch.ChangeColorStart(2, fade, lightout, null, false);
-                currentDarknessTimer = currentWave.darknessTime;
+                CloseLight();
             }
             else
             {
-                lightOn = true;
-                lightSc.intensity = 1;
-                lightAnimator.SetBool("LightOut", false);
-                lightAnimator.SetBool("LightIn", true);
-                currentDarknessTimer = currentWave.darkTimeTimer;
+                OpenLight();
 
             }
         }
+    }
+
+    private void OpenLight()
+    {
+        lightOn = true;
+        lightSc.intensity = 1;
+        lightAnimator.SetBool("LightOut", false);
+        lightAnimator.SetBool("LightIn", true);
+        currentDarknessTimer = currentWave.darkTimeTimer;
+    }
+    private void CloseLight()
+    {
+        lightOn = false;
+        lightSc.intensity = 0;
+        lightAnimator.SetBool("LightIn", false);
+        lightAnimator.SetBool("LightOut", true);
+        ch.StopAllCoroutines();
+        ch.ChangeColorStart(2, fade, lightout, null, false);
+        currentDarknessTimer = currentWave.darknessTime;
+    }
+    private void LightFake()
+    {
+        lightAnimator.SetBool("LightIn", false);
+        lightAnimator.SetBool("LightFake", true);
+        currentDarknessTimer = currentWave.darkTimeTimer + 5;
+        ch.StopAllCoroutines();
+        ch.ChangeColorStart(5, fade, lightout, null, true);
+        if (currentWave.darknessFakeCount < 1)
+            lightAnimator.SetBool("LightFake", false);
+        lightAnimator.Play("LightFake");
+
+        lightAnimator.SetBool("LightIn", true);
+        lightAnimator.SetBool("LightFake", false);
+        currentWave.darknessFakeCount--;
+    }
+
+    private void spawnCircle(Circle circle)
+    {
+        Instantiate(circle.prefab, spawnPoint.position, Quaternion.identity).gameObject.GetComponent<fightWaveButton>().waveManager = this;
+        currentCircleCount = GameObject.FindGameObjectsWithTag("WaveButtonD").Length;
     }
     public IEnumerator SpawnWave(Wave wave)
     {
@@ -127,7 +168,6 @@ public class WaveManager : MonoBehaviour
         soundManager.PlaySound(wave.musicName);
 
         yield return new WaitForSeconds(firstCircleDelay);
-
         currentDarknessTimer = wave.darkTimeTimer;
         for (int i = 0; i < wave.circles.Length; i++)
         {

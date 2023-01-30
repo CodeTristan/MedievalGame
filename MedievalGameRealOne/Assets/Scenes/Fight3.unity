@@ -3758,6 +3758,7 @@ MonoBehaviour:
     darknessTime: 0.5
     darknessFakeCount: 1
     musicName: Music1
+    SpawnTime: []
     circles:
     - nextCircleSpawnDelay: 0.43102077
       prefab: {fileID: 1361660768090295475, guid: f54015d9bcc7ebd439aaa45d0d066b13, type: 3}
@@ -4680,6 +4681,7 @@ MonoBehaviour:
     darknessTime: 0
     darknessFakeCount: 0
     musicName: 
+    SpawnTime: []
     circles: []
   CanSpawnWave: 1
   combo: 0
@@ -5701,7 +5703,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1734995781}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 4.86, y: -10.719999, z: -71.88895}
+  m_LocalPosition: {x: 4.86, y: -10.719999, z: 0}
   m_LocalScale: {x: 0.99999994, y: 0.99999994, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
