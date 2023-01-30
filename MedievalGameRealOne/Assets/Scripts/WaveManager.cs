@@ -70,8 +70,18 @@ public class WaveManager : MonoBehaviour
             Debug.Log(clicknumber+" "+elapsedtime);
             if (clicknumber >= 0)
             {
-                currentWave.SpawnTime.Add(elapsedtime + 1.68f);
-                currentWave.circles[clicknumber].prefab = prefab;
+                if(index > 0)
+                {
+                    currentWave.SpawnTime.Add(currentWave.SpawnTime[index - 1] + elapsedtime + 1.68f);
+                    currentWave.circles[clicknumber].prefab = prefab;
+                }
+                else
+                {
+                    currentWave.SpawnTime.Add(elapsedtime + 1.68f);
+                    currentWave.circles[clicknumber].prefab = prefab;
+                }
+
+                index++;
             }
             clicknumber++;
             elapsedtime = 0;
