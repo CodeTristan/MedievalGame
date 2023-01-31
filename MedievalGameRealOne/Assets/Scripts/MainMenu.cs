@@ -23,29 +23,7 @@ public class MainMenu : MonoBehaviour
     {
         StartCoroutine(StartCo());
     }
-    private void Update()
-    {
-        if (Input.GetKey("f") && Input.GetKey("1"))
-        {
-            SceneManager.LoadScene("Fight1");
-        }
-        if (Input.GetKey("f")&& Input.GetKey("2"))
-        {
-            SceneManager.LoadScene("Fight2");
-        }
-        if (Input.GetKey("f") && Input.GetKey("3"))
-        {
-            SceneManager.LoadScene("Fight3");
-        }
-        if (Input.GetKey("f") && Input.GetKey("4"))
-        {
-            SceneManager.LoadScene("Fight4");
-        }
-        if (Input.GetKey("f") && Input.GetKey("5"))
-        {
-            SceneManager.LoadScene("Fight5");
-        }
-    }
+    
     IEnumerator StartCo()
     {
         Dark.gameObject.SetActive(true);
