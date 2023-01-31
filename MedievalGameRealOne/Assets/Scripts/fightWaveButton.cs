@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class fightWaveButton : MonoBehaviour
 {
+    public Circle circle;
     private Wave currentWave;
     [HideInInspector] public WaveManager waveManager;
     public float effectWaitSeconds;
@@ -12,7 +13,7 @@ public class fightWaveButton : MonoBehaviour
     private Transform target;
     private Vector3 aim;
     private bool dying;
-    
+    public bool inContactSlider;
     void Start()
     {
         rb = gameObject.GetComponent<Rigidbody2D>();
@@ -23,7 +24,9 @@ public class fightWaveButton : MonoBehaviour
 
     void Update()
     {
-        rb.velocity = aim * speed;
+        if(inContactSlider == false)
+            rb.velocity = aim * speed;
+
         if (transform.position.y < -5 && !dying)
         {
             dying = true;

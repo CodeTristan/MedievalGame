@@ -180,27 +180,31 @@ public class WaveManager : MonoBehaviour
 
     private void spawnCircle(Circle circle)
     {
-        Instantiate(circle.prefab, spawnPoint.position, Quaternion.identity).gameObject.GetComponent<fightWaveButton>().waveManager = this;
+        GameObject sp = Instantiate(circle.prefab, spawnPoint.position, Quaternion.identity).gameObject;
+        sp.GetComponent<fightWaveButton>().waveManager = this;
+        sp.GetComponent<fightWaveButton>().circle = circle;
         currentCircleCount = GameObject.FindGameObjectsWithTag("WaveButtonD").Length;
     }
-    public IEnumerator SpawnWave(Wave wave)
-    {
-        //Add Music
-        yield return new WaitForSeconds(1);
+    //public IEnumerator SpawnWave(Wave wave)
+    //{
+    //    //Add Music
+    //    yield return new WaitForSeconds(1);
         
 
-        yield return new WaitForSeconds(firstCircleDelay);
-        currentDarknessTimer = wave.darkTimeTimer;
-        for (int i = 0; i < wave.circles.Length; i++)
-        {
-            Instantiate(wave.circles[i].prefab, spawnPoint.position, Quaternion.identity).gameObject.GetComponent<fightWaveButton>().waveManager = this;
-            currentCircleCount = GameObject.FindGameObjectsWithTag("WaveButtonD").Length;
-            yield return new WaitForSeconds(wave.circles[i].nextCircleSpawnDelay);
-        }
+    //    yield return new WaitForSeconds(firstCircleDelay);
+    //    currentDarknessTimer = wave.darkTimeTimer;
+    //    for (int i = 0; i < wave.circles.Length; i++)
+    //    {
+    //        fightWaveButton sp = Instantiate(wave.circles[i].prefab, spawnPoint.position, Quaternion.identity).gameObject.GetComponent<fightWaveButton>();
+    //        sp.waveManager = this;
+    //        sp.circle = wave.circles[i];
+    //        currentCircleCount = GameObject.FindGameObjectsWithTag("WaveButtonD").Length;
+    //        yield return new WaitForSeconds(wave.circles[i].nextCircleSpawnDelay);
+    //    }
 
-        yield return new WaitForSeconds(3);
-        currentDarknessTimer = 100000;
-        lightAnimator.SetBool("LightIn", true);
-        dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
-    }
+    //    yield return new WaitForSeconds(3);
+    //    currentDarknessTimer = 100000;
+    //    lightAnimator.SetBool("LightIn", true);
+    //    dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
+    //}
 }

@@ -23,6 +23,7 @@ public class Wave
 [System.Serializable]
 public class Circle
 {
-    public float nextCircleSpawnDelay;
     public GameObject prefab;
+    public bool isSlider;
+    public float sliderLength;
 }
