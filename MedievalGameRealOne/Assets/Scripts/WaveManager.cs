@@ -69,6 +69,7 @@ public class WaveManager : MonoBehaviour
         elapsedtime += Time.deltaTime;
         waveTimer += Time.deltaTime;
        // wavetext.SetText(waveTimer.ToString());
+       /*
         if (Input.GetMouseButtonDown(0))
         {
             Debug.Log(clicknumber+" "+elapsedtime);
@@ -80,7 +81,7 @@ public class WaveManager : MonoBehaviour
                 index++;
             }
             clicknumber++;
-        }
+        }*/
 
         if (start && !musicstart)
         {
@@ -98,7 +99,7 @@ public class WaveManager : MonoBehaviour
                 inDialog = true;
                 dialogManager.GetDialogs(dialogManager.FindPath(DialogName));
             }
-            if (waveTimer >= currentWave.SpawnTime[index]/*+0.4*/ && index < currentWave.circles.Length)
+            if (waveTimer >= currentWave.SpawnTime[index]+0.4 && index < currentWave.circles.Length)
             {
                 spawnCircle(currentWave.circles[index]);
                 index++;

@@ -14,6 +14,29 @@ public class Sounds : MonoBehaviour
     public AudioSource[] audiosources; 
     public float musicmultiplier;
 
+    private void Update()
+    {
+        if (Input.GetKey("f") && Input.GetKey("1"))
+        {
+            SceneManager.LoadScene("Fight1");
+        }
+        else if (Input.GetKey("f") && Input.GetKey("2"))
+        {
+            SceneManager.LoadScene("Fight2");
+        }
+        else if (Input.GetKey("f") && Input.GetKey("3"))
+        {
+            SceneManager.LoadScene("Fight3");
+        }
+        else if (Input.GetKey("f") && Input.GetKey("4"))
+        {
+            SceneManager.LoadScene("Fight4");
+        }
+        else if (Input.GetKey("f") && Input.GetKey("5"))
+        {
+            SceneManager.LoadScene("Fight5");
+        }
+    }
     private void Awake()
     {
         for (int i = 0; i < sounds.Length; i++)
